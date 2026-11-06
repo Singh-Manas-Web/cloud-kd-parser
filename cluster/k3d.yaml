@@ -6,6 +6,10 @@ metadata:
 servers: 1
 agents: 0
 image: rancher/k3s:v1.35.5-k3s1
+kubeAPI:
+  host: "127.0.0.1"
+  hostIP: "0.0.0.0"
+  hostPort: "6550"
 ports:
   # Traefik ingress (port 80 inside the cluster) -> http://localhost:8080 on the laptop
   - port: 8080:80
