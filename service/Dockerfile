@@ -2,7 +2,7 @@
 # Contains NO model weights: the model is downloaded from object storage at start-up.
 FROM python:3.11.11-slim
 
-ENV PYTHONDONTWRITEBYTECODE=1 \
+ENV PIP_RETRIES=20 PIP_DEFAULT_TIMEOUT=60 PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
     HF_HUB_OFFLINE=1 \
     TRANSFORMERS_OFFLINE=1 \

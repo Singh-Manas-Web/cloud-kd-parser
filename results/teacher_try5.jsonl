@@ -1,0 +1,5 @@
+{"id": "C0001", "prediction": "{\"intent\": \"calendar_query\", \"date\": \"the weekend after next\", \"time\": null, \"place\": null}"}
+{"id": "C0002", "prediction": "{\"intent\": \"alarm_set\", \"date\": \"every day\", \"time\": \"two hundred\", \"place\": null}"}
+{"id": "C0003", "prediction": "{\"intent\": \"calendar_set\", \"date\": \"tuesday\", \"time\": null, \"place\": null}"}
+{"id": "C0004", "prediction": "{\"intent\": \"calendar_query\", \"date\": \"thursday\", \"time\": null, \"place\": null}"}
+{"id": "C0005", "prediction": "{\"intent\": \"calendar_query\", \"date\": \"this week\", \"time\": null, \"place\": null}"}
