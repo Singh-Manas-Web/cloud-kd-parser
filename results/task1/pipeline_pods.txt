@@ -1,0 +1,7 @@
+NAME                         STATUS     COMPLETIONS   DURATION   AGE    CONTAINERS   IMAGES          SELECTOR
+job.batch/teacher-worker-0   Complete   1/1           110m       119m   worker       kd-worker:1.0   batch.kubernetes.io/controller-uid=b18425a5-7d85-4d53-8f73-632cc17cbc4b
+job.batch/teacher-worker-1   Complete   1/1           110m       119m   worker       kd-worker:1.0   batch.kubernetes.io/controller-uid=a3da2ee8-0da8-4aad-bbd4-558b64bc9e2d
+
+NAME                         READY   STATUS      RESTARTS   AGE    IP           NODE              NOMINATED NODE   READINESS GATES
+pod/teacher-worker-0-l5r8h   0/1     Completed   0          119m   10.42.0.13   k3d-kd-server-0   <none>           <none>
+pod/teacher-worker-1-rgb59   0/1     Completed   0          119m   10.42.0.12   k3d-kd-server-0   <none>           <none>
