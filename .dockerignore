@@ -1,0 +1,5 @@
+# Build context for service/Dockerfile: only the service code and the schema.
+*
+!service/
+!data/schema.json
+service/__pycache__

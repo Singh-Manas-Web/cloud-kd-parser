@@ -1,0 +1,24 @@
+# torch==2.5.1 is installed first from https://download.pytorch.org/whl/cpu (see Makefile: venv-train)
+torch==2.5.1
+transformers==4.46.3
+tokenizers==0.20.3
+safetensors==0.4.5
+huggingface-hub==0.26.5
+numpy==2.1.3
+PyYAML==6.0.2
+regex==2024.11.6
+requests==2.32.3
+certifi==2024.8.30
+charset-normalizer==3.4.0
+idna==3.10
+urllib3==2.2.3
+tqdm==4.67.1
+filelock==3.16.1
+packaging==24.2
+fsspec==2024.10.0
+typing_extensions==4.12.2
+sympy==1.13.1
+mpmath==1.3.0
+networkx==3.4.2
+Jinja2==3.1.4
+MarkupSafe==3.0.2

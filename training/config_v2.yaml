@@ -1,0 +1,23 @@
+# Student training configuration (Task 2), version 2. `make train-v2` reads only this file.
+model_version: v2
+seed: 42
+learning_rate: 0.0004
+batch_size: 16
+epochs: 11            # v2 = v1 + one more epoch
+max_seq_length: 96
+weight_decay: 0.01
+warmup_ratio: 0.05
+max_grad_norm: 1.0
+base_model: EleutherAI/pythia-70m
+base_model_revision: step143000      # the final Pythia-70M checkpoint (same weights as "main")
+train_file: data/v1/train.jsonl
+max_train_records: 1500              # the first 1,500 records of the cleaned dataset
+output_dir: models/v2
+loss_csv: training/loss_v2.csv
+library_versions:
+  python: "3.11"
+  torch: "2.5.1"
+  transformers: "4.46.3"
+  tokenizers: "0.20.3"
+  safetensors: "0.4.5"
+  PyYAML: "6.0.2"

@@ -1,0 +1,12 @@
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+# tools/ is the instructor's kit and is used unchanged
+extend-exclude = ["tools"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["I001"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

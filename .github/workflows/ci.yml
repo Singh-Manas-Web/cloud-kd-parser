@@ -1,0 +1,92 @@
+name: ci
+
+# Stages, in order: lint (+ secret scan) -> unit tests -> model evaluation -> quality gate.
+on:
+  push:
+    branches: [main]
+    tags: [final]
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      model_tag:
+        description: "GitHub Release tag of the model to evaluate (model-bad = untrained Pythia-70M)"
+        required: true
+        default: model-v1
+
+permissions:
+  contents: read
+
+env:
+  MODEL_TAG: ${{ github.event.inputs.model_tag || 'model-v1' }}
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r tests/requirements.txt
+      - name: Lint (ruff)
+        run: ruff check .
+      - name: Secret scan (gitleaks)
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  unit-tests:
+    needs: lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r tests/requirements.txt
+      - name: Unit tests
+        run: pytest -v tests
+
+  evaluate:
+    needs: unit-tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: training/requirements.txt
+      - name: Install CPU PyTorch and Transformers (pinned)
+        run: |
+          pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cpu
+          pip install -r training/requirements.txt
+      - name: Download the model from the GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download "$MODEL_TAG" --repo "$GITHUB_REPOSITORY" --dir model
+          ls -la model
+          python training/checksum.py verify model
+      - name: Evaluate on validation.jsonl
+        run: |
+          mkdir -p ci-results
+          python training/evaluate.py --model model --out ci-results/predictions.jsonl --report ci-results/report.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: evaluation
+          path: ci-results/
+
+  quality-gate:
+    needs: evaluate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: evaluation
+          path: ci-results
+      - name: Quality gate (JSON validity >= 95%)
+        run: python tools/score.py ci-results/predictions.jsonl data/validation.jsonl --min-validity 95
