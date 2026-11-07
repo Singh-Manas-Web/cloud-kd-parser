@@ -1,0 +1,16 @@
+         799  2026-11-07 04:50:54  s3://models/v1/config.json
+         111  2026-11-07 04:50:54  s3://models/v1/generation_config.json
+   281715176  2026-11-07 04:50:59  s3://models/v1/model.safetensors
+         589  2026-11-07 04:50:59  s3://models/v1/model.sha256
+         441  2026-11-07 04:50:59  s3://models/v1/special_tokens_map.json
+     3564303  2026-11-07 04:51:00  s3://models/v1/tokenizer.json
+        4835  2026-11-07 04:51:00  s3://models/v1/tokenizer_config.json
+         446  2026-11-07 04:51:00  s3://models/v1/version.json
+         799  2026-11-07 04:51:00  s3://models/v2/config.json
+         111  2026-11-07 04:51:00  s3://models/v2/generation_config.json
+   281715176  2026-11-07 04:51:02  s3://models/v2/model.safetensors
+         589  2026-11-07 04:51:02  s3://models/v2/model.sha256
+         441  2026-11-07 04:51:02  s3://models/v2/special_tokens_map.json
+     3564303  2026-11-07 04:51:03  s3://models/v2/tokenizer.json
+        4835  2026-11-07 04:51:03  s3://models/v2/tokenizer_config.json
+         446  2026-11-07 04:51:03  s3://models/v2/version.json
