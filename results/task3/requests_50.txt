@@ -1,0 +1,51 @@
+ 1 HTTP 200  0.57s {"intent":"calendar_remove","date":"upcoming","time":null,"place":null}
+ 2 HTTP 200  0.56s {"intent":"alarm_set","date":"sunday","time":"five in the morning","place":null}
+ 3 HTTP 200  0.53s {"intent":"datetime_query","date":null,"time":"right now","place":"washington bill"}
+ 4 HTTP 200  0.48s {"intent":"datetime_query","date":null,"time":"monday","place":null}
+ 5 HTTP 200  0.52s {"intent":"alarm_set","date":"tuesday","time":"six pm","place":null}
+ 6 HTTP 200  0.47s {"intent":"calendar_set","date":"this afternoon","time":null,"place":null}
+ 7 HTTP 200  0.49s {"intent":"datetime_query","date":"march twentieth","time":null,"place":null}
+ 8 HTTP 200  0.46s {"intent":"calendar_query","date":"this weekend","time":null,"place":null}
+ 9 HTTP 200  0.52s {"intent":"datetime_query","date":null,"time":"central time zone","place":null}
+10 HTTP 200  0.46s {"intent":"calendar_query","date":"my anniversary","time":null,"place":null}
+11 HTTP 200  0.47s {"intent":"weather_query","date":"this week","time":null,"place":null}
+12 HTTP 200  0.46s {"intent":"datetime_query","date":null,"time":null,"place":"pst"}
+13 HTTP 200  0.58s {"intent":"recommendation_events","date":null,"time":null,"place":"the area"}
+14 HTTP 200  0.45s {"intent":"calendar_query","date":"next afternoon","time":null,"place":null}
+15 HTTP 200  0.44s {"intent":"calendar_remove","date":"today","time":null,"place":null}
+16 HTTP 200  0.42s {"intent":"calendar_query","date":null,"time":null,"place":null}
+17 HTTP 200  0.49s {"intent":"alarm_set","date":null,"time":"mountain time","place":null}
+18 HTTP 200  0.52s {"intent":"calendar_set","date":"tomorrow","time":"lunch before","place":null}
+19 HTTP 200  0.43s {"intent":"calendar_query","date":null,"time":null,"place":null}
+20 HTTP 200  0.45s {"intent":"weather_query","date":null,"time":null,"place":"our city"}
+21 HTTP 200  0.46s {"intent":"recommendation_events","date":null,"time":null,"place":"me"}
+22 HTTP 200  0.45s {"intent":"calendar_set","date":null,"time":"all","place":null}
+23 HTTP 200  0.47s {"intent":"calendar_set","date":"every birthday","time":null,"place":null}
+24 HTTP 200  0.46s {"intent":"recommendation_events","date":null,"time":null,"place":null}
+25 HTTP 200  0.48s {"intent":"datetime_query","date":null,"time":"now","place":"new york"}
+26 HTTP 200  0.54s {"intent":"weather_query","date":null,"time":"five days","place":"new york city"}
+27 HTTP 200  0.44s {"intent":"calendar_query","date":"today","time":null,"place":null}
+28 HTTP 200  0.48s {"intent":"weather_query","date":null,"time":null,"place":"nearby"}
+29 HTTP 200  0.48s {"intent":"alarm_query","date":null,"time":"right now","place":null}
+30 HTTP 200  0.48s {"intent":"alarm_set","date":null,"time":"ten am","place":null}
+31 HTTP 200  0.48s {"intent":"recommendation_events","date":"today","time":null,"place":null}
+32 HTTP 200  0.46s {"intent":"datetime_query","date":"this year","time":null,"place":null}
+33 HTTP 200  0.50s {"intent":"alarm_set","date":"next tuesday","time":null,"place":null}
+34 HTTP 200  0.45s {"intent":"recommendation_events","date":null,"time":null,"place":null}
+35 HTTP 200  0.46s {"intent":"alarm_query","date":"today","time":null,"place":null}
+36 HTTP 200  0.47s {"intent":"alarm_query","date":null,"time":"seven am","place":null}
+37 HTTP 200  0.48s {"intent":"calendar_set","date":"tomorrow","time":"seven","place":null}
+38 HTTP 200  0.54s {"intent":"calendar_set","date":"monday","time":"six","place":"mr cines"}
+39 HTTP 200  0.51s {"intent":"calendar_set","date":null,"time":null,"place":"Wyattan party"}
+40 HTTP 200  0.48s {"intent":"alarm_set","date":null,"time":"once hour","place":null}
+41 HTTP 200  0.46s {"intent":"datetime_query","date":null,"time":null,"place":"california"}
+42 HTTP 200  0.45s {"intent":"datetime_query","date":null,"time":null,"place":"beijing"}
+43 HTTP 200  0.46s {"intent":"alarm_query","date":null,"time":null,"place":null}
+44 HTTP 200  0.48s {"intent":"datetime_query","date":"the fifteenth","time":null,"place":null}
+45 HTTP 200  0.50s {"intent":"alarm_set","date":"next tuesday","time":null,"place":null}
+46 HTTP 200  0.47s {"intent":"calendar_query","date":"this friday","time":null,"place":null}
+47 HTTP 200  0.42s {"intent":"datetime_query","date":null,"time":null,"place":null}
+48 HTTP 200  0.46s {"intent":"calendar_remove","date":null,"time":"one pm","place":null}
+49 HTTP 200  0.49s {"intent":"calendar_query","date":"the next day","time":null,"place":null}
+50 HTTP 200  0.60s {"intent":"calendar_set","date":"today","time":"one pm","place":"joe"}
+50/50 returned HTTP 200

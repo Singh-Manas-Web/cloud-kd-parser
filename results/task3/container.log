@@ -1,0 +1,74 @@
+INFO:     Started server process [1]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-11-07 05:20:22,882 INFO botocore.credentials Found credentials in environment variables.
+INFO:     172.18.0.1:52788 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 05:20:23,255 INFO parser.storage downloading model from s3://models/v1/ (endpoint http://k3d-kd-server-0:30833) to /tmp/model
+2026-11-07 05:20:23,335 INFO parser.storage   downloaded s3://models/v1/config.json (0.0 MB)
+2026-11-07 05:20:23,344 INFO parser.storage   downloaded s3://models/v1/generation_config.json (0.0 MB)
+INFO:     172.18.0.1:52666 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 05:20:26,186 INFO parser.storage   downloaded s3://models/v1/model.safetensors (281.7 MB)
+2026-11-07 05:20:26,193 INFO parser.storage   downloaded s3://models/v1/model.sha256 (0.0 MB)
+2026-11-07 05:20:26,199 INFO parser.storage   downloaded s3://models/v1/special_tokens_map.json (0.0 MB)
+2026-11-07 05:20:26,234 INFO parser.storage   downloaded s3://models/v1/tokenizer.json (3.6 MB)
+2026-11-07 05:20:26,240 INFO parser.storage   downloaded s3://models/v1/tokenizer_config.json (0.0 MB)
+2026-11-07 05:20:26,247 INFO parser.storage   downloaded s3://models/v1/version.json (0.0 MB)
+2026-11-07 05:20:26,247 INFO parser.storage model download finished: 285.3 MB in 3.0s
+INFO:     172.18.0.1:52676 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 05:20:28,266 INFO parser.storage all model files match model.sha256
+INFO:     172.18.0.1:52692 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+INFO:     172.18.0.1:52706 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+INFO:     172.18.0.1:52710 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 05:20:33,802 INFO parser model v1 loaded from s3://models/v1/; ready 11.3s after process start
+INFO:     172.18.0.1:36666 - "GET /readyz HTTP/1.1" 200 OK
+INFO:     172.18.0.1:36668 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:36676 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:36686 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:36698 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:36702 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:36708 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:36714 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:36718 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:36728 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:36734 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:36738 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:36746 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:36752 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:36754 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:36766 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:36772 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:36774 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:36786 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:36794 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:36802 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:49530 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:49544 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:49560 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:49574 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:49586 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:49590 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:49592 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:49602 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:49612 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:49628 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:49632 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:49634 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:49636 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:49648 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:49650 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:49664 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:49678 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:49680 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:49684 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:49690 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:49704 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:41194 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:41210 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:41220 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:41222 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:41228 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:41236 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:41238 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:41254 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:41264 - "POST /parse HTTP/1.1" 200 OK

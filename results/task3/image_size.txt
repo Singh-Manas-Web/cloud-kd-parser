@@ -1,2 +1,2 @@
 IMAGE           ID             DISK USAGE   CONTENT SIZE   EXTRA
-kd-parser:1.0   78fb5f77b9ff       1.58GB          335MB        
+kd-parser:1.0   78fb5f77b9ff       1.58GB          335MB   U    

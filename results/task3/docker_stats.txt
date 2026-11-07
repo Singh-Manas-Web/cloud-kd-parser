@@ -1,0 +1,13 @@
+kd-limit 90.72% 544.7MiB / 1GiB
+kd-limit 98.96% 544.6MiB / 1GiB
+kd-limit 98.49% 551.9MiB / 1GiB
+kd-limit 98.09% 556.7MiB / 1GiB
+kd-limit 97.75% 559.7MiB / 1GiB
+kd-limit 98.35% 559.5MiB / 1GiB
+kd-limit 98.50% 559.6MiB / 1GiB
+kd-limit 98.40% 567.6MiB / 1GiB
+kd-limit 98.44% 568.1MiB / 1GiB
+kd-limit 97.91% 567.9MiB / 1GiB
+kd-limit 98.22% 568.1MiB / 1GiB
+kd-limit 99.12% 573.4MiB / 1GiB
+kd-limit 0.14% 572.7MiB / 1GiB

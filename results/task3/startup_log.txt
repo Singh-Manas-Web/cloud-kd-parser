@@ -1,0 +1,30 @@
+INFO:     Started server process [1]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-11-07 05:16:23,520 INFO botocore.credentials Found credentials in environment variables.
+2026-11-07 05:16:23,987 INFO parser.storage downloading model from s3://models/v1/ (endpoint http://k3d-kd-server-0:30833) to /tmp/model
+2026-11-07 05:16:24,079 INFO parser.storage   downloaded s3://models/v1/config.json (0.0 MB)
+2026-11-07 05:16:24,089 INFO parser.storage   downloaded s3://models/v1/generation_config.json (0.0 MB)
+INFO:     172.18.0.1:51566 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     172.18.0.1:51570 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+INFO:     172.18.0.1:51584 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+INFO:     172.18.0.1:51588 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 05:16:27,755 INFO parser.storage   downloaded s3://models/v1/model.safetensors (281.7 MB)
+2026-11-07 05:16:27,768 INFO parser.storage   downloaded s3://models/v1/model.sha256 (0.0 MB)
+2026-11-07 05:16:27,774 INFO parser.storage   downloaded s3://models/v1/special_tokens_map.json (0.0 MB)
+2026-11-07 05:16:27,816 INFO parser.storage   downloaded s3://models/v1/tokenizer.json (3.6 MB)
+2026-11-07 05:16:27,822 INFO parser.storage   downloaded s3://models/v1/tokenizer_config.json (0.0 MB)
+2026-11-07 05:16:27,829 INFO parser.storage   downloaded s3://models/v1/version.json (0.0 MB)
+2026-11-07 05:16:27,829 INFO parser.storage model download finished: 285.3 MB in 3.8s
+INFO:     172.18.0.1:51590 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 05:16:31,007 INFO parser.storage all model files match model.sha256
+INFO:     172.18.0.1:51598 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+INFO:     172.18.0.1:51606 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+INFO:     172.18.0.1:39084 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+INFO:     172.18.0.1:39090 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 05:16:38,346 INFO parser model v1 loaded from s3://models/v1/; ready 15.0s after process start
+INFO:     172.18.0.1:39094 - "GET /readyz HTTP/1.1" 200 OK
+INFO:     172.18.0.1:39102 - "GET /readyz HTTP/1.1" 200 OK
+INFO:     172.18.0.1:39112 - "POST /parse HTTP/1.1" 200 OK
+INFO:     172.18.0.1:39118 - "POST /parse HTTP/1.1" 200 OK
