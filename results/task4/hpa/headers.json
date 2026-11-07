@@ -1,0 +1,9 @@
+{
+  "per_replica": {
+    "parser-67bb49c8d-vchdm": 335,
+    "parser-67bb49c8d-c5tcp": 268
+  },
+  "per_model_version": {
+    "v1": 603
+  }
+}

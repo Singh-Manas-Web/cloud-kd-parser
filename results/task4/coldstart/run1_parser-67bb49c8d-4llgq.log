@@ -1,0 +1,25 @@
+INFO:     Started server process [1]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-11-07 06:00:43,379 INFO botocore.credentials Found credentials in environment variables.
+2026-11-07 06:00:43,770 INFO parser.storage downloading model from s3://models/v1/ (endpoint http://seaweedfs.data.svc.cluster.local:8333) to /tmp/model
+INFO:     10.42.0.1:42848 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 06:00:43,827 INFO parser.storage   downloaded s3://models/v1/config.json (0.0 MB)
+2026-11-07 06:00:43,835 INFO parser.storage   downloaded s3://models/v1/generation_config.json (0.0 MB)
+INFO:     10.42.0.1:47554 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 06:00:48,432 INFO parser.storage   downloaded s3://models/v1/model.safetensors (281.7 MB)
+2026-11-07 06:00:48,450 INFO parser.storage   downloaded s3://models/v1/model.sha256 (0.0 MB)
+2026-11-07 06:00:48,460 INFO parser.storage   downloaded s3://models/v1/special_tokens_map.json (0.0 MB)
+2026-11-07 06:00:48,505 INFO parser.storage   downloaded s3://models/v1/tokenizer.json (3.6 MB)
+2026-11-07 06:00:48,514 INFO parser.storage   downloaded s3://models/v1/tokenizer_config.json (0.0 MB)
+2026-11-07 06:00:48,523 INFO parser.storage   downloaded s3://models/v1/version.json (0.0 MB)
+2026-11-07 06:00:48,524 INFO parser.storage model download finished: 285.3 MB in 4.8s
+INFO:     10.42.0.1:47566 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 06:00:51,561 INFO parser.storage all model files match model.sha256
+INFO:     10.42.0.1:47574 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+INFO:     10.42.0.1:60958 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 06:00:58,799 INFO parser model v1 loaded from s3://models/v1/; ready 15.6s after process start
+INFO:     10.42.0.1:60972 - "GET /readyz HTTP/1.1" 200 OK
+INFO:     10.42.0.1:60982 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     10.42.0.1:60986 - "GET /readyz HTTP/1.1" 200 OK

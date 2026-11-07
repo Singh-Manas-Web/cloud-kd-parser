@@ -1,0 +1,326 @@
+== 05:57:38
+parser   2/2   2     2     33m
+parser-67bb49c8d-cqqwc   1/1   Running   0     4m11s
+parser-67bb49c8d-fgl6r   1/1   Running   0     3m48s
+== 05:57:41
+parser   2/2   2     2     33m
+parser-67bb49c8d-cqqwc   1/1   Running   0     4m13s
+parser-67bb49c8d-fgl6r   1/1   Running   0     3m50s
+== 05:57:43
+parser   2/2   2     2     33m
+parser-67bb49c8d-cqqwc   1/1   Running   0     4m15s
+parser-67bb49c8d-fgl6r   1/1   Running   0     3m52s
+== 05:57:45
+parser   2/2   2     2     33m
+parser-67bb49c8d-cqqwc   1/1   Running   0     4m17s
+parser-67bb49c8d-fgl6r   1/1   Running   0     3m54s
+== 05:57:47
+parser   2/2   2     2     33m
+parser-67bb49c8d-cqqwc   1/1   Running   0     4m20s
+parser-67bb49c8d-fgl6r   1/1   Running   0     3m57s
+== 05:57:50
+parser   2/2   2     2     33m
+parser-67bb49c8d-cqqwc   1/1   Running   0     4m22s
+parser-67bb49c8d-fgl6r   1/1   Running   0     3m59s
+== 05:57:52
+parser   2/2   2     2     33m
+parser-67bb49c8d-cqqwc   1/1   Running   0     4m24s
+parser-67bb49c8d-fgl6r   1/1   Running   0     4m1s
+== 05:57:54
+parser   2/2   2     2     33m
+parser-67bb49c8d-cqqwc   1/1   Running   0     4m27s
+parser-67bb49c8d-fgl6r   1/1   Running   0     4m4s
+== 05:57:57
+parser   2/2   2     2     33m
+parser-67bb49c8d-cqqwc   1/1   Running   0     4m29s
+parser-67bb49c8d-fgl6r   1/1   Running   0     4m6s
+== 05:57:59
+parser   2/2   2     2     33m
+parser-67bb49c8d-cqqwc   1/1   Running   0     4m31s
+parser-67bb49c8d-fgl6r   1/1   Running   0     4m8s
+== 05:58:01
+parser   2/2   2     2     33m
+parser-67bb49c8d-cqqwc   1/1   Running   0     4m33s
+parser-67bb49c8d-fgl6r   1/1   Running   0     4m10s
+== 05:58:03
+parser   2/2   2     2     33m
+parser-67bb49c8d-cqqwc   1/1   Running   0     4m35s
+parser-67bb49c8d-fgl6r   1/1   Running   0     4m12s
+== 05:58:05
+parser   2/2   2     2     33m
+parser-67bb49c8d-cqqwc   1/1   Running   0     4m38s
+parser-67bb49c8d-fgl6r   1/1   Running   0     4m15s
+== 05:58:08
+parser   2/2   2     2     33m
+parser-67bb49c8d-cqqwc   1/1   Running   0     4m40s
+parser-67bb49c8d-fgl6r   1/1   Running   0     4m17s
+== 05:58:10
+parser   2/2   2     2     33m
+parser-67bb49c8d-cqqwc   1/1   Running   0     4m42s
+parser-67bb49c8d-fgl6r   1/1   Running   0     4m19s
+== 05:58:12
+parser   2/2   2     2     33m
+parser-67bb49c8d-cqqwc   1/1   Running   0     4m44s
+parser-67bb49c8d-fgl6r   1/1   Running   0     4m21s
+== 05:58:14
+parser   2/2   2     2     33m
+parser-67bb49c8d-cqqwc   1/1   Running   0     4m47s
+parser-67bb49c8d-fgl6r   1/1   Running   0     4m24s
+== 05:58:17
+parser   2/2   2     2     34m
+parser-67bb49c8d-cqqwc   1/1   Running   0     4m49s
+parser-67bb49c8d-fgl6r   1/1   Running   0     4m26s
+== 05:58:19
+parser   1/2   2     1     34m
+parser-67bb49c8d-cqqwc   1/1   Terminating         0     4m51s
+parser-67bb49c8d-fgl6r   1/1   Running             0     4m28s
+parser-67bb49c8d-jhbzb   0/1   ContainerCreating   0     1s
+== 05:58:21
+parser   1/2   2     1     34m
+parser-67bb49c8d-cqqwc   1/1   Terminating   0     4m53s
+parser-67bb49c8d-fgl6r   1/1   Running       0     4m30s
+parser-67bb49c8d-jhbzb   0/1   Running       0     3s
+== 05:58:24
+parser   1/2   2     1     34m
+parser-67bb49c8d-cqqwc   1/1   Terminating   0     4m57s
+parser-67bb49c8d-fgl6r   1/1   Running       0     4m34s
+parser-67bb49c8d-jhbzb   0/1   Running       0     7s
+== 05:58:27
+parser   1/2   2     1     34m
+parser-67bb49c8d-cqqwc   1/1   Terminating   0     5m
+parser-67bb49c8d-fgl6r   1/1   Running       0     4m37s
+parser-67bb49c8d-jhbzb   0/1   Running       0     10s
+== 05:58:30
+parser   1/2   2     1     34m
+parser-67bb49c8d-cqqwc   1/1   Terminating   0     5m2s
+parser-67bb49c8d-fgl6r   1/1   Running       0     4m39s
+parser-67bb49c8d-jhbzb   0/1   Running       0     12s
+== 05:58:32
+parser   1/2   2     1     34m
+parser-67bb49c8d-cqqwc   1/1   Terminating   0     5m4s
+parser-67bb49c8d-fgl6r   1/1   Running       0     4m41s
+parser-67bb49c8d-jhbzb   0/1   Running       0     14s
+== 05:58:34
+parser   1/2   2     1     34m
+parser-67bb49c8d-fgl6r   1/1   Running   0     4m43s
+parser-67bb49c8d-jhbzb   0/1   Running   0     16s
+== 05:58:36
+parser   1/2   2     1     34m
+parser-67bb49c8d-fgl6r   1/1   Running   0     4m46s
+parser-67bb49c8d-jhbzb   0/1   Running   0     19s
+== 05:58:39
+parser   2/2   2     2     34m
+parser-67bb49c8d-fgl6r   1/1   Running   0     4m48s
+parser-67bb49c8d-jhbzb   1/1   Running   0     21s
+== 05:58:41
+parser   2/2   2     2     34m
+parser-67bb49c8d-fgl6r   1/1   Running   0     4m50s
+parser-67bb49c8d-jhbzb   1/1   Running   0     23s
+== 05:58:43
+parser   2/2   2     2     34m
+parser-67bb49c8d-fgl6r   1/1   Running   0     4m52s
+parser-67bb49c8d-jhbzb   1/1   Running   0     25s
+== 05:58:45
+parser   2/2   2     2     34m
+parser-67bb49c8d-fgl6r   1/1   Running   0     4m55s
+parser-67bb49c8d-jhbzb   1/1   Running   0     28s
+== 05:58:48
+parser   2/2   2     2     34m
+parser-67bb49c8d-fgl6r   1/1   Running   0     4m57s
+parser-67bb49c8d-jhbzb   1/1   Running   0     30s
+== 05:58:50
+parser   2/2   2     2     34m
+parser-67bb49c8d-fgl6r   1/1   Running   0     4m59s
+parser-67bb49c8d-jhbzb   1/1   Running   0     32s
+== 05:58:52
+parser   2/2   2     2     34m
+parser-67bb49c8d-fgl6r   1/1   Running   0     5m1s
+parser-67bb49c8d-jhbzb   1/1   Running   0     34s
+== 05:58:54
+parser   2/2   2     2     34m
+parser-67bb49c8d-fgl6r   1/1   Running   0     5m4s
+parser-67bb49c8d-jhbzb   1/1   Running   0     37s
+== 05:58:57
+parser   2/2   2     2     34m
+parser-67bb49c8d-fgl6r   1/1   Running   0     5m6s
+parser-67bb49c8d-jhbzb   1/1   Running   0     39s
+== 05:58:59
+parser   2/2   2     2     34m
+parser-67bb49c8d-fgl6r   1/1   Running   0     5m8s
+parser-67bb49c8d-jhbzb   1/1   Running   0     41s
+== 05:59:01
+parser   2/2   2     2     34m
+parser-67bb49c8d-fgl6r   1/1   Running   0     5m10s
+parser-67bb49c8d-jhbzb   1/1   Running   0     43s
+== 05:59:03
+parser   2/2   2     2     34m
+parser-67bb49c8d-fgl6r   1/1   Running   0     5m12s
+parser-67bb49c8d-jhbzb   1/1   Running   0     45s
+== 05:59:05
+parser   2/2   2     2     34m
+parser-67bb49c8d-fgl6r   1/1   Running   0     5m15s
+parser-67bb49c8d-jhbzb   1/1   Running   0     48s
+== 05:59:08
+parser   2/2   2     2     34m
+parser-67bb49c8d-fgl6r   1/1   Running   0     5m17s
+parser-67bb49c8d-jhbzb   1/1   Running   0     50s
+== 05:59:10
+parser   2/2   2     2     34m
+parser-67bb49c8d-fgl6r   1/1   Running   0     5m19s
+parser-67bb49c8d-jhbzb   1/1   Running   0     52s
+== 05:59:12
+parser   2/2   2     2     34m
+parser-67bb49c8d-fgl6r   1/1   Running   0     5m21s
+parser-67bb49c8d-jhbzb   1/1   Running   0     54s
+== 05:59:14
+parser   2/2   2     2     34m
+parser-67bb49c8d-fgl6r   1/1   Running   0     5m24s
+parser-67bb49c8d-jhbzb   1/1   Running   0     57s
+== 05:59:17
+parser   2/2   2     2     35m
+parser-67bb49c8d-fgl6r   1/1   Running   0     5m26s
+parser-67bb49c8d-jhbzb   1/1   Running   0     59s
+== 05:59:19
+parser   2/2   2     2     35m
+parser-67bb49c8d-fgl6r   1/1   Running   0     5m28s
+parser-67bb49c8d-jhbzb   1/1   Running   0     61s
+== 05:59:21
+parser   2/2   2     2     35m
+parser-67bb49c8d-fgl6r   1/1   Running   0     5m30s
+parser-67bb49c8d-jhbzb   1/1   Running   0     63s
+== 05:59:23
+parser   2/2   2     2     35m
+parser-67bb49c8d-fgl6r   1/1   Running   0     5m32s
+parser-67bb49c8d-jhbzb   1/1   Running   0     65s
+== 05:59:25
+parser   2/2   2     2     35m
+parser-67bb49c8d-fgl6r   1/1   Running   0     5m35s
+parser-67bb49c8d-jhbzb   1/1   Running   0     68s
+== 05:59:28
+parser   2/2   2     2     35m
+parser-67bb49c8d-fgl6r   1/1   Running   0     5m37s
+parser-67bb49c8d-jhbzb   1/1   Running   0     70s
+== 05:59:30
+parser   2/2   2     2     35m
+parser-67bb49c8d-fgl6r   1/1   Running   0     5m39s
+parser-67bb49c8d-jhbzb   1/1   Running   0     72s
+== 05:59:32
+parser   2/2   2     2     35m
+parser-67bb49c8d-fgl6r   1/1   Running   0     5m41s
+parser-67bb49c8d-jhbzb   1/1   Running   0     74s
+== 05:59:34
+parser   2/2   2     2     35m
+parser-67bb49c8d-fgl6r   1/1   Running   0     5m43s
+parser-67bb49c8d-jhbzb   1/1   Running   0     76s
+== 05:59:36
+parser   2/2   2     2     35m
+parser-67bb49c8d-fgl6r   1/1   Running   0     5m46s
+parser-67bb49c8d-jhbzb   1/1   Running   0     79s
+== 05:59:39
+parser   2/2   2     2     35m
+parser-67bb49c8d-fgl6r   1/1   Running   0     5m48s
+parser-67bb49c8d-jhbzb   1/1   Running   0     81s
+== 05:59:41
+parser   2/2   2     2     35m
+parser-67bb49c8d-fgl6r   1/1   Running   0     5m50s
+parser-67bb49c8d-jhbzb   1/1   Running   0     83s
+== 05:59:43
+parser   2/2   2     2     35m
+parser-67bb49c8d-fgl6r   1/1   Running   0     5m52s
+parser-67bb49c8d-jhbzb   1/1   Running   0     85s
+== 05:59:45
+parser   2/2   2     2     35m
+parser-67bb49c8d-fgl6r   1/1   Running   0     5m54s
+parser-67bb49c8d-jhbzb   1/1   Running   0     87s
+== 05:59:47
+parser   2/2   2     2     35m
+parser-67bb49c8d-fgl6r   1/1   Running   0     5m57s
+parser-67bb49c8d-jhbzb   1/1   Running   0     90s
+== 05:59:50
+parser   2/2   2     2     35m
+parser-67bb49c8d-fgl6r   1/1   Running   0     5m59s
+parser-67bb49c8d-jhbzb   1/1   Running   0     92s
+== 05:59:52
+parser   2/2   2     2     35m
+parser-67bb49c8d-fgl6r   1/1   Running   0     6m1s
+parser-67bb49c8d-jhbzb   1/1   Running   0     94s
+== 05:59:54
+parser   2/2   2     2     35m
+parser-67bb49c8d-fgl6r   1/1   Running   0     6m3s
+parser-67bb49c8d-jhbzb   1/1   Running   0     96s
+== 05:59:56
+parser   2/2   2     2     35m
+parser-67bb49c8d-fgl6r   1/1   Running   0     6m6s
+parser-67bb49c8d-jhbzb   1/1   Running   0     99s
+== 05:59:59
+parser   2/2   2     2     35m
+parser-67bb49c8d-fgl6r   1/1   Running   0     6m8s
+parser-67bb49c8d-jhbzb   1/1   Running   0     101s
+== 06:00:01
+parser   2/2   2     2     35m
+parser-67bb49c8d-fgl6r   1/1   Running   0     6m10s
+parser-67bb49c8d-jhbzb   1/1   Running   0     103s
+== 06:00:03
+parser   2/2   2     2     35m
+parser-67bb49c8d-fgl6r   1/1   Running   0     6m12s
+parser-67bb49c8d-jhbzb   1/1   Running   0     105s
+== 06:00:05
+parser   2/2   2     2     35m
+parser-67bb49c8d-fgl6r   1/1   Running   0     6m15s
+parser-67bb49c8d-jhbzb   1/1   Running   0     108s
+== 06:00:08
+parser   2/2   2     2     35m
+parser-67bb49c8d-fgl6r   1/1   Running   0     6m17s
+parser-67bb49c8d-jhbzb   1/1   Running   0     110s
+== 06:00:10
+parser   2/2   2     2     35m
+parser-67bb49c8d-fgl6r   1/1   Running   0     6m19s
+parser-67bb49c8d-jhbzb   1/1   Running   0     112s
+== 06:00:12
+parser   2/2   2     2     35m
+parser-67bb49c8d-fgl6r   1/1   Running   0     6m21s
+parser-67bb49c8d-jhbzb   1/1   Running   0     114s
+== 06:00:14
+parser   2/2   2     2     35m
+parser-67bb49c8d-fgl6r   1/1   Running   0     6m23s
+parser-67bb49c8d-jhbzb   1/1   Running   0     116s
+== 06:00:16
+parser   2/2   2     2     36m
+parser-67bb49c8d-fgl6r   1/1   Running   0     6m26s
+parser-67bb49c8d-jhbzb   1/1   Running   0     119s
+== 06:00:19
+parser   2/2   2     2     36m
+parser-67bb49c8d-fgl6r   1/1   Running   0     6m28s
+parser-67bb49c8d-jhbzb   1/1   Running   0     2m1s
+== 06:00:21
+parser   2/2   2     2     36m
+parser-67bb49c8d-fgl6r   1/1   Running   0     6m31s
+parser-67bb49c8d-jhbzb   1/1   Running   0     2m4s
+== 06:00:24
+parser   2/2   2     2     36m
+parser-67bb49c8d-fgl6r   1/1   Running   0     6m33s
+parser-67bb49c8d-jhbzb   1/1   Running   0     2m6s
+== 06:00:26
+parser   2/2   2     2     36m
+parser-67bb49c8d-fgl6r   1/1   Running   0     6m35s
+parser-67bb49c8d-jhbzb   1/1   Running   0     2m8s
+== 06:00:28
+parser   2/2   2     2     36m
+parser-67bb49c8d-fgl6r   1/1   Running   0     6m37s
+parser-67bb49c8d-jhbzb   1/1   Running   0     2m10s
+== 06:00:30
+parser   2/2   2     2     36m
+parser-67bb49c8d-fgl6r   1/1   Running   0     6m39s
+parser-67bb49c8d-jhbzb   1/1   Running   0     2m12s
+== 06:00:32
+parser   2/2   2     2     36m
+parser-67bb49c8d-fgl6r   1/1   Running   0     6m42s
+parser-67bb49c8d-jhbzb   1/1   Running   0     2m15s
+== 06:00:35
+parser   2/2   2     2     36m
+parser-67bb49c8d-fgl6r   1/1   Running   0     6m44s
+parser-67bb49c8d-jhbzb   1/1   Running   0     2m17s
+== 06:00:37
+parser   2/2   2     2     36m
+parser-67bb49c8d-fgl6r   1/1   Running   0     6m46s
+parser-67bb49c8d-jhbzb   1/1   Running   0     2m19s

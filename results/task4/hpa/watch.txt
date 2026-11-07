@@ -1,0 +1,369 @@
+== 05:44:28
+parser   Deployment/parser   cpu: 0%/70%   1     2     1     20m
+parser   1/1   1     1     20m
+parser-67bb49c8d-vchdm   3m    631Mi   
+== 05:44:33
+parser   Deployment/parser   cpu: 0%/70%   1     2     1     20m
+parser   1/1   1     1     20m
+parser-67bb49c8d-vchdm   3m    631Mi   
+== 05:44:38
+parser   Deployment/parser   cpu: 0%/70%   1     2     1     20m
+parser   1/1   1     1     20m
+parser-67bb49c8d-vchdm   3m    631Mi   
+== 05:44:43
+parser   Deployment/parser   cpu: 0%/70%   1     2     1     20m
+parser   1/1   1     1     20m
+parser-67bb49c8d-vchdm   3m    631Mi   
+== 05:44:49
+parser   Deployment/parser   cpu: 0%/70%   1     2     1     20m
+parser   1/1   1     1     20m
+parser-67bb49c8d-vchdm   3m    631Mi   
+== 05:44:54
+parser   Deployment/parser   cpu: 0%/70%   1     2     1     20m
+parser   1/1   1     1     20m
+parser-67bb49c8d-vchdm   3m    631Mi   
+== 05:44:59
+parser   Deployment/parser   cpu: 0%/70%   1     2     1     20m
+parser   1/1   1     1     20m
+parser-67bb49c8d-vchdm   3m    631Mi   
+== 05:45:05
+parser   Deployment/parser   cpu: 109%/70%   1     2     1     20m
+parser   1/2   2     1     20m
+parser-67bb49c8d-vchdm   547m   655Mi   
+== 05:45:10
+parser   Deployment/parser   cpu: 109%/70%   1     2     1     20m
+parser   1/2   2     1     20m
+parser-67bb49c8d-vchdm   547m   655Mi   
+== 05:45:15
+parser   Deployment/parser   cpu: 109%/70%   1     2     1     21m
+parser   1/2   2     1     21m
+parser-67bb49c8d-vchdm   547m   655Mi   
+== 05:45:21
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     21m
+parser   1/2   2     1     21m
+parser-67bb49c8d-c5tcp   947m   548Mi   
+parser-67bb49c8d-vchdm   983m   707Mi   
+== 05:45:27
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     21m
+parser   2/2   2     2     21m
+parser-67bb49c8d-c5tcp   947m   548Mi   
+parser-67bb49c8d-vchdm   983m   707Mi   
+== 05:45:32
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     21m
+parser   2/2   2     2     21m
+parser-67bb49c8d-c5tcp   941m   484Mi   
+parser-67bb49c8d-vchdm   965m   686Mi   
+== 05:45:37
+parser   Deployment/parser   cpu: 193%/70%   1     2     2     21m
+parser   2/2   2     2     21m
+parser-67bb49c8d-c5tcp   941m   484Mi   
+parser-67bb49c8d-vchdm   965m   686Mi   
+== 05:45:43
+parser   Deployment/parser   cpu: 193%/70%   1     2     2     21m
+parser   2/2   2     2     21m
+parser-67bb49c8d-c5tcp   941m   484Mi   
+parser-67bb49c8d-vchdm   965m   686Mi   
+== 05:45:48
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     21m
+parser   2/2   2     2     21m
+parser-67bb49c8d-c5tcp   710m   609Mi   
+parser-67bb49c8d-vchdm   981m   596Mi   
+== 05:45:53
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     21m
+parser   2/2   2     2     21m
+parser-67bb49c8d-c5tcp   710m   609Mi   
+parser-67bb49c8d-vchdm   981m   596Mi   
+== 05:45:59
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     21m
+parser   2/2   2     2     21m
+parser-67bb49c8d-c5tcp   710m   609Mi   
+parser-67bb49c8d-vchdm   981m   596Mi   
+== 05:46:05
+parser   Deployment/parser   cpu: 197%/70%   1     2     2     21m
+parser   2/2   2     2     21m
+parser-67bb49c8d-c5tcp   974m    576Mi   
+parser-67bb49c8d-vchdm   1000m   580Mi   
+== 05:46:10
+parser   Deployment/parser   cpu: 197%/70%   1     2     2     21m
+parser   2/2   2     2     21m
+parser-67bb49c8d-c5tcp   974m    576Mi   
+parser-67bb49c8d-vchdm   1000m   580Mi   
+== 05:46:15
+parser   Deployment/parser   cpu: 197%/70%   1     2     2     21m
+parser   2/2   2     2     21m
+parser-67bb49c8d-c5tcp   974m    576Mi   
+parser-67bb49c8d-vchdm   1000m   580Mi   
+== 05:46:21
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     22m
+parser   2/2   2     2     22m
+parser-67bb49c8d-c5tcp   960m    561Mi   
+parser-67bb49c8d-vchdm   1000m   580Mi   
+== 05:46:26
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     22m
+parser   2/2   2     2     22m
+parser-67bb49c8d-c5tcp   960m    561Mi   
+parser-67bb49c8d-vchdm   1000m   580Mi   
+== 05:46:31
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     22m
+parser   2/2   2     2     22m
+parser-67bb49c8d-c5tcp   978m   554Mi   
+parser-67bb49c8d-vchdm   998m   573Mi   
+== 05:46:36
+parser   Deployment/parser   cpu: 197%/70%   1     2     2     22m
+parser   2/2   2     2     22m
+parser-67bb49c8d-c5tcp   978m   554Mi   
+parser-67bb49c8d-vchdm   998m   573Mi   
+== 05:46:42
+parser   Deployment/parser   cpu: 197%/70%   1     2     2     22m
+parser   2/2   2     2     22m
+parser-67bb49c8d-c5tcp   978m   554Mi   
+parser-67bb49c8d-vchdm   998m   573Mi   
+== 05:46:47
+parser   Deployment/parser   cpu: 197%/70%   1     2     2     22m
+parser   2/2   2     2     22m
+parser-67bb49c8d-c5tcp   952m   547Mi   
+parser-67bb49c8d-vchdm   999m   565Mi   
+== 05:46:52
+parser   Deployment/parser   cpu: 195%/70%   1     2     2     22m
+parser   2/2   2     2     22m
+parser-67bb49c8d-c5tcp   952m   547Mi   
+parser-67bb49c8d-vchdm   999m   565Mi   
+== 05:46:58
+parser   Deployment/parser   cpu: 195%/70%   1     2     2     22m
+parser   2/2   2     2     22m
+parser-67bb49c8d-c5tcp   952m   547Mi   
+parser-67bb49c8d-vchdm   999m   565Mi   
+== 05:47:03
+parser   Deployment/parser   cpu: 195%/70%   1     2     2     22m
+parser   2/2   2     2     22m
+parser-67bb49c8d-c5tcp   963m   541Mi   
+parser-67bb49c8d-vchdm   998m   565Mi   
+== 05:47:08
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     22m
+parser   2/2   2     2     22m
+parser-67bb49c8d-c5tcp   963m   541Mi   
+parser-67bb49c8d-vchdm   998m   565Mi   
+== 05:47:14
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     22m
+parser   2/2   2     2     22m
+parser-67bb49c8d-c5tcp   963m   541Mi   
+parser-67bb49c8d-vchdm   998m   565Mi   
+== 05:47:19
+parser   Deployment/parser   cpu: 199%/70%   1     2     2     23m
+parser   2/2   2     2     23m
+parser-67bb49c8d-c5tcp   999m   542Mi   
+parser-67bb49c8d-vchdm   998m   615Mi   
+== 05:47:24
+parser   Deployment/parser   cpu: 199%/70%   1     2     2     23m
+parser   2/2   2     2     23m
+parser-67bb49c8d-c5tcp   999m   542Mi   
+parser-67bb49c8d-vchdm   998m   615Mi   
+== 05:47:29
+parser   Deployment/parser   cpu: 199%/70%   1     2     2     23m
+parser   2/2   2     2     23m
+parser-67bb49c8d-c5tcp   999m   542Mi   
+parser-67bb49c8d-vchdm   998m   615Mi   
+== 05:47:35
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     23m
+parser   2/2   2     2     23m
+parser-67bb49c8d-c5tcp   964m   537Mi   
+parser-67bb49c8d-vchdm   999m   614Mi   
+== 05:47:40
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     23m
+parser   2/2   2     2     23m
+parser-67bb49c8d-c5tcp   964m   537Mi   
+parser-67bb49c8d-vchdm   999m   614Mi   
+== 05:47:45
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     23m
+parser   2/2   2     2     23m
+parser-67bb49c8d-c5tcp   964m   537Mi   
+parser-67bb49c8d-vchdm   999m   614Mi   
+== 05:47:50
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     23m
+parser   2/2   2     2     23m
+parser-67bb49c8d-c5tcp   971m   538Mi   
+parser-67bb49c8d-vchdm   998m   614Mi   
+== 05:47:55
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     23m
+parser   2/2   2     2     23m
+parser-67bb49c8d-c5tcp   971m   538Mi   
+parser-67bb49c8d-vchdm   998m   614Mi   
+== 05:48:01
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     23m
+parser   2/2   2     2     23m
+parser-67bb49c8d-c5tcp   971m   538Mi   
+parser-67bb49c8d-vchdm   998m   614Mi   
+== 05:48:06
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     23m
+parser   2/2   2     2     23m
+parser-67bb49c8d-c5tcp   971m   538Mi   
+parser-67bb49c8d-vchdm   998m   611Mi   
+== 05:48:11
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     23m
+parser   2/2   2     2     23m
+parser-67bb49c8d-c5tcp   971m   538Mi   
+parser-67bb49c8d-vchdm   998m   611Mi   
+== 05:48:16
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     24m
+parser   2/2   2     2     24m
+parser-67bb49c8d-c5tcp   957m   538Mi   
+parser-67bb49c8d-vchdm   999m   611Mi   
+== 05:48:21
+parser   Deployment/parser   cpu: 195%/70%   1     2     2     24m
+parser   2/2   2     2     24m
+parser-67bb49c8d-c5tcp   957m   538Mi   
+parser-67bb49c8d-vchdm   999m   611Mi   
+== 05:48:27
+parser   Deployment/parser   cpu: 195%/70%   1     2     2     24m
+parser   2/2   2     2     24m
+parser-67bb49c8d-c5tcp   957m   538Mi   
+parser-67bb49c8d-vchdm   999m   611Mi   
+== 05:48:32
+parser   Deployment/parser   cpu: 195%/70%   1     2     2     24m
+parser   2/2   2     2     24m
+parser-67bb49c8d-c5tcp   978m   538Mi   
+parser-67bb49c8d-vchdm   998m   613Mi   
+== 05:48:37
+parser   Deployment/parser   cpu: 197%/70%   1     2     2     24m
+parser   2/2   2     2     24m
+parser-67bb49c8d-c5tcp   978m   538Mi   
+parser-67bb49c8d-vchdm   998m   613Mi   
+== 05:48:42
+parser   Deployment/parser   cpu: 197%/70%   1     2     2     24m
+parser   2/2   2     2     24m
+parser-67bb49c8d-c5tcp   978m   538Mi   
+parser-67bb49c8d-vchdm   998m   613Mi   
+== 05:48:48
+parser   Deployment/parser   cpu: 197%/70%   1     2     2     24m
+parser   2/2   2     2     24m
+parser-67bb49c8d-c5tcp   954m   533Mi   
+parser-67bb49c8d-vchdm   998m   613Mi   
+== 05:48:53
+parser   Deployment/parser   cpu: 195%/70%   1     2     2     24m
+parser   2/2   2     2     24m
+parser-67bb49c8d-c5tcp   954m   533Mi   
+parser-67bb49c8d-vchdm   998m   613Mi   
+== 05:48:58
+parser   Deployment/parser   cpu: 195%/70%   1     2     2     24m
+parser   2/2   2     2     24m
+parser-67bb49c8d-c5tcp   954m   533Mi   
+parser-67bb49c8d-vchdm   998m   613Mi   
+== 05:49:03
+parser   Deployment/parser   cpu: 195%/70%   1     2     2     24m
+parser   2/2   2     2     24m
+parser-67bb49c8d-c5tcp   66m    533Mi   
+parser-67bb49c8d-vchdm   765m   613Mi   
+== 05:49:08
+parser   Deployment/parser   cpu: 83%/70%   1     2     2     24m
+parser   2/2   2     2     24m
+parser-67bb49c8d-c5tcp   66m    533Mi   
+parser-67bb49c8d-vchdm   765m   613Mi   
+== 05:49:13
+parser   Deployment/parser   cpu: 83%/70%   1     2     2     24m
+parser   2/2   2     2     24m
+parser-67bb49c8d-c5tcp   66m    533Mi   
+parser-67bb49c8d-vchdm   765m   613Mi   
+== 05:49:19
+parser   Deployment/parser   cpu: 0%/70%   1     2     2     25m
+parser   2/2   2     2     25m
+parser-67bb49c8d-c5tcp   2m    533Mi   
+parser-67bb49c8d-vchdm   3m    613Mi   
+== 05:49:24
+parser   Deployment/parser   cpu: 0%/70%   1     2     2     25m
+parser   2/2   2     2     25m
+parser-67bb49c8d-c5tcp   2m    533Mi   
+parser-67bb49c8d-vchdm   3m    613Mi   
+== 05:49:29
+parser   Deployment/parser   cpu: 0%/70%   1     2     2     25m
+parser   2/2   2     2     25m
+parser-67bb49c8d-c5tcp   2m    533Mi   
+parser-67bb49c8d-vchdm   3m    613Mi   
+== 05:49:34
+parser   Deployment/parser   cpu: 0%/70%   1     2     2     25m
+parser   2/2   2     2     25m
+parser-67bb49c8d-c5tcp   2m    533Mi   
+parser-67bb49c8d-vchdm   2m    613Mi   
+== 05:49:39
+parser   Deployment/parser   cpu: 0%/70%   1     2     2     25m
+parser   2/2   2     2     25m
+parser-67bb49c8d-c5tcp   2m    533Mi   
+parser-67bb49c8d-vchdm   2m    613Mi   
+== 05:49:44
+parser   Deployment/parser   cpu: 0%/70%   1     2     2     25m
+parser   2/2   2     2     25m
+parser-67bb49c8d-c5tcp   2m    533Mi   
+parser-67bb49c8d-vchdm   2m    613Mi   
+== 05:49:50
+parser   Deployment/parser   cpu: 0%/70%   1     2     2     25m
+parser   2/2   2     2     25m
+parser-67bb49c8d-c5tcp   3m    532Mi   
+parser-67bb49c8d-vchdm   2m    613Mi   
+== 05:49:55
+parser   Deployment/parser   cpu: 0%/70%   1     2     2     25m
+parser   2/2   2     2     25m
+parser-67bb49c8d-c5tcp   3m    532Mi   
+parser-67bb49c8d-vchdm   2m    613Mi   
+== 05:50:00
+parser   Deployment/parser   cpu: 0%/70%   1     2     2     25m
+parser   2/2   2     2     25m
+parser-67bb49c8d-c5tcp   3m    532Mi   
+parser-67bb49c8d-vchdm   2m    613Mi   
+== 05:50:05
+parser   Deployment/parser   cpu: 0%/70%   1     2     2     25m
+parser   1/1   1     1     25m
+parser-67bb49c8d-c5tcp   2m    532Mi   
+parser-67bb49c8d-vchdm   3m    613Mi   
+== 05:50:10
+parser   Deployment/parser   cpu: 0%/70%   1     2     2     25m
+parser   1/1   1     1     25m
+parser-67bb49c8d-c5tcp   2m    532Mi   
+parser-67bb49c8d-vchdm   3m    613Mi   
+== 05:50:15
+parser   Deployment/parser   cpu: 0%/70%   1     2     2     25m
+parser   1/1   1     1     26m
+parser-67bb49c8d-c5tcp   2m    532Mi   
+parser-67bb49c8d-vchdm   3m    613Mi   
+== 05:50:21
+parser   Deployment/parser   cpu: 0%/70%   1     2     1     26m
+parser   1/1   1     1     26m
+parser-67bb49c8d-vchdm   2m    613Mi   
+== 05:50:26
+parser   Deployment/parser   cpu: 0%/70%   1     2     1     26m
+parser   1/1   1     1     26m
+parser-67bb49c8d-vchdm   2m    613Mi   
+== 05:50:31
+parser   Deployment/parser   cpu: 0%/70%   1     2     1     26m
+parser   1/1   1     1     26m
+parser-67bb49c8d-vchdm   3m    611Mi   
+== 05:50:36
+parser   Deployment/parser   cpu: 0%/70%   1     2     1     26m
+parser   1/1   1     1     26m
+parser-67bb49c8d-vchdm   3m    611Mi   
+== 05:50:42
+parser   Deployment/parser   cpu: 0%/70%   1     2     1     26m
+parser   1/1   1     1     26m
+parser-67bb49c8d-vchdm   3m    611Mi   
+== 05:50:47
+parser   Deployment/parser   cpu: 0%/70%   1     2     1     26m
+parser   1/1   1     1     26m
+parser-67bb49c8d-vchdm   2m    611Mi   
+== 05:50:52
+parser   Deployment/parser   cpu: 0%/70%   1     2     1     26m
+parser   1/1   1     1     26m
+parser-67bb49c8d-vchdm   2m    611Mi   
+== 05:50:57
+parser   Deployment/parser   cpu: 0%/70%   1     2     1     26m
+parser   1/1   1     1     26m
+parser-67bb49c8d-vchdm   2m    611Mi   
+== 05:51:02
+parser   Deployment/parser   cpu: 0%/70%   1     2     1     26m
+parser   1/1   1     1     26m
+parser-67bb49c8d-vchdm   2m    611Mi   
+== 05:51:07
+parser   Deployment/parser   cpu: 0%/70%   1     2     1     26m
+parser   1/1   1     1     26m
+parser-67bb49c8d-vchdm   2m    611Mi   
+== 05:51:13
+parser   Deployment/parser   cpu: 0%/70%   1     2     1     26m
+parser   1/1   1     1     26m
+parser-67bb49c8d-vchdm   2m    611Mi   

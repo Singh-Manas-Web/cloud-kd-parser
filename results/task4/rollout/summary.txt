@@ -1,0 +1,23 @@
+## Load test (Locust, 4 users, 2 min)
+- requests 929, failures 1, error rate 0.11%
+- p50 latency 1400 ms, p95 latency 2900 ms
+- throughput 2.59 requests/s
+
+## Successful requests per replica (X-Served-By)
+- parser-67bb49c8d-8zv7j: 62 (6.7%)
+- parser-67bb49c8d-vchdm: 77 (8.3%)
+- parser-54cf458cfd-ljldm: 117 (12.6%)
+- parser-54cf458cfd-ktchb: 83 (8.9%)
+- parser-67bb49c8d-cqqwc: 307 (33.0%)
+- parser-67bb49c8d-fgl6r: 285 (30.6%)
+- per model version: {'v1': 731, 'v2': 200}
+
+## Cost per 1,000 requests (rate_card.json, INR)
+1. one replica per hour = 1.0 vCPU x 3.5 + 1.0 GiB x 0.45 = 3.9500 INR/h
+2. all running replicas = 2 x 3.9500 = 7.9000 INR/h
+3. requests served per hour = 2.5897 req/s x 3600 = 9323.0 req/h
+4. cost per 1,000 requests = 7.9000 / 9323.0 x 1000 = 0.8474 INR
+
+## SLO: 99% of /parse requests return HTTP 200 within 30 s, window = one standard load-test run
+- error budget = 1% x 929 requests = 9.3 requests
+- used: 1 failed requests = 10.8% of the budget

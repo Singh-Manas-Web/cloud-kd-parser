@@ -1,0 +1,50 @@
+
+X main ci · 42341958991
+Triggered via workflow_dispatch about 7 minutes ago
+
+JOBS
+✓ lint in 12s (ID 128311373263)
+✓ unit-tests in 12s (ID 128311426482)
+✓ evaluate in 2m21s (ID 128311478955)
+X quality-gate in 7s (ID 128312005440)
+  ✓ Set up job
+  ✓ Run actions/checkout@v4
+  ✓ Run actions/download-artifact@v4
+  X Quality gate (JSON validity >= 95%)
+  ✓ Post Run actions/checkout@v4
+  ✓ Complete job
+
+ANNOTATIONS
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-python@v5. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+lint: .github#2
+
+- "The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see https://github.com/actions/runner-images/issues/14748"
+lint: .github#1
+
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-python@v5. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+unit-tests: .github#2
+
+- "The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see https://github.com/actions/runner-images/issues/14748"
+unit-tests: .github#1
+
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-python@v5, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+evaluate: .github#2
+
+- "The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see https://github.com/actions/runner-images/issues/14748"
+evaluate: .github#1
+
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/download-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+quality-gate: .github#2
+
+X Process completed with exit code 1.
+quality-gate: .github#18
+
+- "The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see https://github.com/actions/runner-images/issues/14748"
+quality-gate: .github#1
+
+
+ARTIFACTS
+evaluation
+
+To see what failed, try: gh run view 42341958991 --log-failed
+View this run on GitHub: https://github.com/Singh-Manas-Web/cloud-kd-parser/actions/runs/42341958991

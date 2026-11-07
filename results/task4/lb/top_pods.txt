@@ -1,0 +1,72 @@
+== 06:02:00
+parser-67bb49c8d-5fjs6   887m   300Mi   
+parser-67bb49c8d-djx9w   894m   236Mi   
+== 06:02:05
+parser-67bb49c8d-5fjs6   887m   300Mi   
+parser-67bb49c8d-djx9w   894m   236Mi   
+== 06:02:10
+parser-67bb49c8d-5fjs6   887m   300Mi   
+parser-67bb49c8d-djx9w   894m   236Mi   
+== 06:02:16
+parser-67bb49c8d-5fjs6   809m   611Mi   
+parser-67bb49c8d-djx9w   827m   611Mi   
+== 06:02:21
+parser-67bb49c8d-5fjs6   809m   611Mi   
+parser-67bb49c8d-djx9w   827m   611Mi   
+== 06:02:26
+parser-67bb49c8d-5fjs6   809m   611Mi   
+parser-67bb49c8d-djx9w   827m   611Mi   
+== 06:02:31
+parser-67bb49c8d-5fjs6   998m    599Mi   
+parser-67bb49c8d-djx9w   1000m   593Mi   
+== 06:02:36
+parser-67bb49c8d-5fjs6   998m    599Mi   
+parser-67bb49c8d-djx9w   1000m   593Mi   
+== 06:02:41
+parser-67bb49c8d-5fjs6   998m    599Mi   
+parser-67bb49c8d-djx9w   1000m   593Mi   
+== 06:02:47
+parser-67bb49c8d-5fjs6   999m    595Mi   
+parser-67bb49c8d-djx9w   1001m   597Mi   
+== 06:02:52
+parser-67bb49c8d-5fjs6   999m    595Mi   
+parser-67bb49c8d-djx9w   1001m   597Mi   
+== 06:02:57
+parser-67bb49c8d-5fjs6   999m    595Mi   
+parser-67bb49c8d-djx9w   1001m   597Mi   
+== 06:03:02
+parser-67bb49c8d-5fjs6   999m    595Mi   
+parser-67bb49c8d-djx9w   1000m   597Mi   
+== 06:03:07
+parser-67bb49c8d-5fjs6   999m    595Mi   
+parser-67bb49c8d-djx9w   1000m   597Mi   
+== 06:03:12
+parser-67bb49c8d-5fjs6   999m    595Mi   
+parser-67bb49c8d-djx9w   1000m   597Mi   
+== 06:03:17
+parser-67bb49c8d-5fjs6   998m    592Mi   
+parser-67bb49c8d-djx9w   1001m   594Mi   
+== 06:03:22
+parser-67bb49c8d-5fjs6   998m    592Mi   
+parser-67bb49c8d-djx9w   1001m   594Mi   
+== 06:03:28
+parser-67bb49c8d-5fjs6   998m    592Mi   
+parser-67bb49c8d-djx9w   1001m   594Mi   
+== 06:03:33
+parser-67bb49c8d-5fjs6   998m    580Mi   
+parser-67bb49c8d-djx9w   1000m   576Mi   
+== 06:03:38
+parser-67bb49c8d-5fjs6   998m    580Mi   
+parser-67bb49c8d-djx9w   1000m   576Mi   
+== 06:03:43
+parser-67bb49c8d-5fjs6   998m    580Mi   
+parser-67bb49c8d-djx9w   1000m   576Mi   
+== 06:03:48
+parser-67bb49c8d-5fjs6   953m    572Mi   
+parser-67bb49c8d-djx9w   1000m   569Mi   
+== 06:03:53
+parser-67bb49c8d-5fjs6   953m    572Mi   
+parser-67bb49c8d-djx9w   1000m   569Mi   
+== 06:03:58
+parser-67bb49c8d-5fjs6   953m    572Mi   
+parser-67bb49c8d-djx9w   1000m   569Mi   

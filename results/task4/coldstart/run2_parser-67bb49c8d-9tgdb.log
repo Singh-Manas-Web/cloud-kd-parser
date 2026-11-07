@@ -1,0 +1,26 @@
+INFO:     Started server process [1]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     10.42.0.1:56402 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 06:01:05,106 INFO botocore.credentials Found credentials in environment variables.
+2026-11-07 06:01:05,401 INFO parser.storage downloading model from s3://models/v1/ (endpoint http://seaweedfs.data.svc.cluster.local:8333) to /tmp/model
+2026-11-07 06:01:05,571 INFO parser.storage   downloaded s3://models/v1/config.json (0.0 MB)
+2026-11-07 06:01:05,579 INFO parser.storage   downloaded s3://models/v1/generation_config.json (0.0 MB)
+INFO:     10.42.0.1:56406 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 06:01:10,079 INFO parser.storage   downloaded s3://models/v1/model.safetensors (281.7 MB)
+2026-11-07 06:01:10,137 INFO parser.storage   downloaded s3://models/v1/model.sha256 (0.0 MB)
+2026-11-07 06:01:10,147 INFO parser.storage   downloaded s3://models/v1/special_tokens_map.json (0.0 MB)
+2026-11-07 06:01:10,195 INFO parser.storage   downloaded s3://models/v1/tokenizer.json (3.6 MB)
+2026-11-07 06:01:10,206 INFO parser.storage   downloaded s3://models/v1/tokenizer_config.json (0.0 MB)
+2026-11-07 06:01:10,215 INFO parser.storage   downloaded s3://models/v1/version.json (0.0 MB)
+2026-11-07 06:01:10,215 INFO parser.storage model download finished: 285.3 MB in 4.8s
+INFO:     10.42.0.1:56422 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+INFO:     10.42.0.1:42910 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+INFO:     10.42.0.1:42920 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 06:01:17,652 INFO parser.storage all model files match model.sha256
+INFO:     10.42.0.1:42926 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+INFO:     10.42.0.1:42934 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     10.42.0.1:42940 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 06:01:25,841 INFO parser model v1 loaded from s3://models/v1/; ready 21.0s after process start
+INFO:     10.42.0.1:48256 - "GET /readyz HTTP/1.1" 200 OK

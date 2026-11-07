@@ -1,0 +1,28 @@
+INFO:     Started server process [1]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-11-07 06:01:31,413 INFO botocore.credentials Found credentials in environment variables.
+INFO:     10.42.0.1:44020 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 06:01:31,898 INFO parser.storage downloading model from s3://models/v1/ (endpoint http://seaweedfs.data.svc.cluster.local:8333) to /tmp/model
+2026-11-07 06:01:32,104 INFO parser.storage   downloaded s3://models/v1/config.json (0.0 MB)
+2026-11-07 06:01:32,116 INFO parser.storage   downloaded s3://models/v1/generation_config.json (0.0 MB)
+INFO:     10.42.0.1:44026 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 06:01:37,437 INFO parser.storage   downloaded s3://models/v1/model.safetensors (281.7 MB)
+2026-11-07 06:01:37,471 INFO parser.storage   downloaded s3://models/v1/model.sha256 (0.0 MB)
+2026-11-07 06:01:37,491 INFO parser.storage   downloaded s3://models/v1/special_tokens_map.json (0.0 MB)
+2026-11-07 06:01:37,537 INFO parser.storage   downloaded s3://models/v1/tokenizer.json (3.6 MB)
+2026-11-07 06:01:37,548 INFO parser.storage   downloaded s3://models/v1/tokenizer_config.json (0.0 MB)
+2026-11-07 06:01:37,562 INFO parser.storage   downloaded s3://models/v1/version.json (0.0 MB)
+2026-11-07 06:01:37,562 INFO parser.storage model download finished: 285.3 MB in 5.7s
+INFO:     10.42.0.1:37402 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+INFO:     10.42.0.1:37404 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+INFO:     10.42.0.1:37412 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 06:01:44,593 INFO parser.storage all model files match model.sha256
+INFO:     10.42.0.1:56942 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+INFO:     10.42.0.1:56950 - "GET /healthz HTTP/1.1" 200 OK
+INFO:     10.42.0.1:56958 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+INFO:     10.42.0.1:56972 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+INFO:     10.42.0.1:46756 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 06:01:57,559 INFO parser model v1 loaded from s3://models/v1/; ready 26.4s after process start
+INFO:     10.42.0.1:46770 - "GET /readyz HTTP/1.1" 200 OK

@@ -1,0 +1,8 @@
+05:58:18 deleting parser-67bb49c8d-cqqwc
+pod "parser-67bb49c8d-cqqwc" deleted from app namespace
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/parser   2/2     2            2           36m
+
+NAME                         READY   STATUS    RESTARTS   AGE
+pod/parser-67bb49c8d-fgl6r   1/1     Running   0          6m48s
+pod/parser-67bb49c8d-jhbzb   1/1     Running   0          2m21s

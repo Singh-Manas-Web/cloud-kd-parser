@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Content-Length: 67
+Content-Type: application/json
+Date: Sat, 07 Nov 2026 05:53:25 GMT
+Server: uvicorn
+X-Model-Version: v2
+X-Served-By: parser-54cf458cfd-ljldm
+
+{"intent":"datetime_query","date":null,"time":null,"place":"tokyo"}

@@ -1,0 +1,49 @@
+### run 1 06:00:39
+parser-67bb49c8d-4llgq  created 2026-11-07T06:00:41Z  ready 2026-11-07T06:00:58Z  cold start 17s
+parser-67bb49c8d-cgqgn  created 2026-11-07T06:00:41Z  ready 2026-11-07T06:01:01Z  cold start 20s
+RUN_MAX_SECONDS 20
+2026-11-07 06:00:43,770 INFO parser.storage downloading model from s3://models/v1/ (endpoint http://seaweedfs.data.svc.cluster.local:8333) to /tmp/model
+INFO:     10.42.0.1:42848 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 06:00:43,827 INFO parser.storage   downloaded s3://models/v1/config.json (0.0 MB)
+2026-11-07 06:00:43,835 INFO parser.storage   downloaded s3://models/v1/generation_config.json (0.0 MB)
+INFO:     10.42.0.1:47554 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 06:00:48,432 INFO parser.storage   downloaded s3://models/v1/model.safetensors (281.7 MB)
+2026-11-07 06:00:48,450 INFO parser.storage   downloaded s3://models/v1/model.sha256 (0.0 MB)
+2026-11-07 06:00:48,460 INFO parser.storage   downloaded s3://models/v1/special_tokens_map.json (0.0 MB)
+2026-11-07 06:00:48,505 INFO parser.storage   downloaded s3://models/v1/tokenizer.json (3.6 MB)
+2026-11-07 06:00:48,514 INFO parser.storage   downloaded s3://models/v1/tokenizer_config.json (0.0 MB)
+2026-11-07 06:00:48,523 INFO parser.storage   downloaded s3://models/v1/version.json (0.0 MB)
+2026-11-07 06:00:48,524 INFO parser.storage model download finished: 285.3 MB in 4.8s
+### run 2 06:01:02
+parser-67bb49c8d-9tgdb  created 2026-11-07T06:01:02Z  ready 2026-11-07T06:01:26Z  cold start 24s
+parser-67bb49c8d-zdb4f  created 2026-11-07T06:01:02Z  ready 2026-11-07T06:01:25Z  cold start 23s
+RUN_MAX_SECONDS 24
+INFO:     10.42.0.1:56402 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 06:01:05,401 INFO parser.storage downloading model from s3://models/v1/ (endpoint http://seaweedfs.data.svc.cluster.local:8333) to /tmp/model
+2026-11-07 06:01:05,571 INFO parser.storage   downloaded s3://models/v1/config.json (0.0 MB)
+2026-11-07 06:01:05,579 INFO parser.storage   downloaded s3://models/v1/generation_config.json (0.0 MB)
+INFO:     10.42.0.1:56406 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 06:01:10,079 INFO parser.storage   downloaded s3://models/v1/model.safetensors (281.7 MB)
+2026-11-07 06:01:10,137 INFO parser.storage   downloaded s3://models/v1/model.sha256 (0.0 MB)
+2026-11-07 06:01:10,147 INFO parser.storage   downloaded s3://models/v1/special_tokens_map.json (0.0 MB)
+2026-11-07 06:01:10,195 INFO parser.storage   downloaded s3://models/v1/tokenizer.json (3.6 MB)
+2026-11-07 06:01:10,206 INFO parser.storage   downloaded s3://models/v1/tokenizer_config.json (0.0 MB)
+2026-11-07 06:01:10,215 INFO parser.storage   downloaded s3://models/v1/version.json (0.0 MB)
+2026-11-07 06:01:10,215 INFO parser.storage model download finished: 285.3 MB in 4.8s
+### run 3 06:01:27
+parser-67bb49c8d-5fjs6  created 2026-11-07T06:01:28Z  ready 2026-11-07T06:01:58Z  cold start 30s
+parser-67bb49c8d-djx9w  created 2026-11-07T06:01:28Z  ready 2026-11-07T06:01:58Z  cold start 30s
+RUN_MAX_SECONDS 30
+INFO:     10.42.0.1:44020 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 06:01:31,898 INFO parser.storage downloading model from s3://models/v1/ (endpoint http://seaweedfs.data.svc.cluster.local:8333) to /tmp/model
+2026-11-07 06:01:32,104 INFO parser.storage   downloaded s3://models/v1/config.json (0.0 MB)
+2026-11-07 06:01:32,116 INFO parser.storage   downloaded s3://models/v1/generation_config.json (0.0 MB)
+INFO:     10.42.0.1:44026 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 06:01:37,437 INFO parser.storage   downloaded s3://models/v1/model.safetensors (281.7 MB)
+2026-11-07 06:01:37,471 INFO parser.storage   downloaded s3://models/v1/model.sha256 (0.0 MB)
+2026-11-07 06:01:37,491 INFO parser.storage   downloaded s3://models/v1/special_tokens_map.json (0.0 MB)
+2026-11-07 06:01:37,537 INFO parser.storage   downloaded s3://models/v1/tokenizer.json (3.6 MB)
+2026-11-07 06:01:37,548 INFO parser.storage   downloaded s3://models/v1/tokenizer_config.json (0.0 MB)
+2026-11-07 06:01:37,562 INFO parser.storage   downloaded s3://models/v1/version.json (0.0 MB)
+2026-11-07 06:01:37,562 INFO parser.storage model download finished: 285.3 MB in 5.7s
+cold-start times (s): [20, 24, 30]; median 24s

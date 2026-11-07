@@ -1,0 +1,705 @@
+bash scripts/task4.sh hpa
+horizontalpodautoscaler.autoscaling/parser patched (no change)
+05:44:28 waiting for 1 replica
+05:48:44 load finished, waiting for scale-down
+parser   Deployment/parser   cpu: 0%/70%   1     2     1     20m
+parser   1/1   1     1     20m
+parser-67bb49c8d-vchdm   3m    631Mi   
+parser   Deployment/parser   cpu: 0%/70%   1     2     1     20m
+parser   1/1   1     1     20m
+parser-67bb49c8d-vchdm   3m    631Mi   
+parser   Deployment/parser   cpu: 0%/70%   1     2     1     20m
+parser   1/1   1     1     20m
+parser-67bb49c8d-vchdm   3m    631Mi   
+parser   Deployment/parser   cpu: 0%/70%   1     2     1     20m
+parser   1/1   1     1     20m
+parser-67bb49c8d-vchdm   3m    631Mi   
+parser   Deployment/parser   cpu: 0%/70%   1     2     1     20m
+parser   1/1   1     1     20m
+parser-67bb49c8d-vchdm   3m    631Mi   
+parser   Deployment/parser   cpu: 0%/70%   1     2     1     20m
+parser   1/1   1     1     20m
+parser-67bb49c8d-vchdm   3m    631Mi   
+parser   Deployment/parser   cpu: 0%/70%   1     2     1     20m
+parser   1/1   1     1     20m
+parser-67bb49c8d-vchdm   3m    631Mi   
+parser   Deployment/parser   cpu: 109%/70%   1     2     1     20m
+parser   1/2   2     1     20m
+parser-67bb49c8d-vchdm   547m   655Mi   
+parser   Deployment/parser   cpu: 109%/70%   1     2     1     20m
+parser   1/2   2     1     20m
+parser-67bb49c8d-vchdm   547m   655Mi   
+parser   Deployment/parser   cpu: 109%/70%   1     2     1     21m
+parser   1/2   2     1     21m
+parser-67bb49c8d-vchdm   547m   655Mi   
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     21m
+parser   1/2   2     1     21m
+parser-67bb49c8d-c5tcp   947m   548Mi   
+parser-67bb49c8d-vchdm   983m   707Mi   
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     21m
+parser   2/2   2     2     21m
+parser-67bb49c8d-c5tcp   947m   548Mi   
+parser-67bb49c8d-vchdm   983m   707Mi   
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     21m
+parser   2/2   2     2     21m
+parser-67bb49c8d-c5tcp   941m   484Mi   
+parser-67bb49c8d-vchdm   965m   686Mi   
+parser   Deployment/parser   cpu: 193%/70%   1     2     2     21m
+parser   2/2   2     2     21m
+parser-67bb49c8d-c5tcp   941m   484Mi   
+parser-67bb49c8d-vchdm   965m   686Mi   
+parser   Deployment/parser   cpu: 193%/70%   1     2     2     21m
+parser   2/2   2     2     21m
+parser-67bb49c8d-c5tcp   941m   484Mi   
+parser-67bb49c8d-vchdm   965m   686Mi   
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     21m
+parser   2/2   2     2     21m
+parser-67bb49c8d-c5tcp   710m   609Mi   
+parser-67bb49c8d-vchdm   981m   596Mi   
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     21m
+parser   2/2   2     2     21m
+parser-67bb49c8d-c5tcp   710m   609Mi   
+parser-67bb49c8d-vchdm   981m   596Mi   
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     21m
+parser   2/2   2     2     21m
+parser-67bb49c8d-c5tcp   710m   609Mi   
+parser-67bb49c8d-vchdm   981m   596Mi   
+parser   Deployment/parser   cpu: 197%/70%   1     2     2     21m
+parser   2/2   2     2     21m
+parser-67bb49c8d-c5tcp   974m    576Mi   
+parser-67bb49c8d-vchdm   1000m   580Mi   
+parser   Deployment/parser   cpu: 197%/70%   1     2     2     21m
+parser   2/2   2     2     21m
+parser-67bb49c8d-c5tcp   974m    576Mi   
+parser-67bb49c8d-vchdm   1000m   580Mi   
+parser   Deployment/parser   cpu: 197%/70%   1     2     2     21m
+parser   2/2   2     2     21m
+parser-67bb49c8d-c5tcp   974m    576Mi   
+parser-67bb49c8d-vchdm   1000m   580Mi   
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     22m
+parser   2/2   2     2     22m
+parser-67bb49c8d-c5tcp   960m    561Mi   
+parser-67bb49c8d-vchdm   1000m   580Mi   
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     22m
+parser   2/2   2     2     22m
+parser-67bb49c8d-c5tcp   960m    561Mi   
+parser-67bb49c8d-vchdm   1000m   580Mi   
+parser   Deployment/parser   cpu: 196%/70%   1     2     2     22m
+parser   2/2   2     2     22m
+parser-67bb49c8d-c5tcp   978m   554Mi   
+parser-67bb49c8d-vchdm   998m   573Mi   
+parser   Deployment/parser   cpu: 197%/70%   1     2     2     22m
+parser   2/2   2     2     22m
+parser-67bb49c8d-c5tcp   978m   554Mi   
+parser-67bb49c8d-vchdm   998m   573Mi   
+parser   Deployment/parser   cpu: 197%/70%   1     2     2     22m
+parser   2/2   2     2     22m
+parser-67bb49c8d-c5tcp   978m   554Mi   
+parser-67bb49c8d-vchdm   998m   573Mi   
+parser   Deployment/parser   cpu: 197%/70%   1     2     2     22m
+parser   2/2   2     2     22m
+parser-67bb49c8d-c5tcp   952m   547Mi   
+parser-67bb49c8d-vchdm   999m   565Mi   
+parser   Deployment/parser   cpu: 195%/70%   1     2     2     22m
+parser   2/2   2     2     22m
+      - Type: Percent  Value: 100  Period: 15 seconds
+Deployment pods:       1 current / 1 desired
+Conditions:
+  Type            Status  Reason            Message
+  ----            ------  ------            -------
+  AbleToScale     True    ReadyForNewScale  recommended size matches current size
+  ScalingActive   True    ValidMetricFound  the HPA was able to successfully calculate a replica count from cpu resource utilization (percentage of request)
+  ScalingLimited  True    TooFewReplicas    the desired replica count is less than the minimum replica count
+Events:
+  Type     Reason                        Age                From                       Message
+  ----     ------                        ----               ----                       -------
+  Warning  FailedGetResourceMetric       22m (x6 over 26m)  horizontal-pod-autoscaler  failed to get cpu utilization: did not receive metrics for targeted pods (pods might be unready)
+  Warning  FailedComputeMetricsReplicas  22m (x6 over 26m)  horizontal-pod-autoscaler  invalid metrics (1 invalid out of 1), first error is: failed to get cpu resource metric value: failed to get cpu utilization: did not receive metrics for targeted pods (pods might be unready)
+  Normal   SuccessfulRescale             6m11s              horizontal-pod-autoscaler  New size: 2; reason: cpu resource utilization (percentage of request) above target
+  Normal   SuccessfulRescale             71s (x2 over 25m)  horizontal-pod-autoscaler  New size: 1; reason: All metrics below target
+## Load test (Locust, 4 users, 2 min)
+- requests 602, failures 0, error rate 0.00%
+- p50 latency 2100 ms, p95 latency 2700 ms
+- throughput 2.52 requests/s
+
+## Successful requests per replica (X-Served-By)
+- parser-67bb49c8d-vchdm: 335 (55.6%)
+- parser-67bb49c8d-c5tcp: 268 (44.4%)
+- per model version: {'v1': 603}
+
+## Cost per 1,000 requests (rate_card.json, INR)
+1. one replica per hour = 1.0 vCPU x 3.5 + 1.0 GiB x 0.45 = 3.9500 INR/h
+2. all running replicas = 2 x 3.9500 = 7.9000 INR/h
+3. requests served per hour = 2.5150 req/s x 3600 = 9054.0 req/h
+4. cost per 1,000 requests = 7.9000 / 9054.0 x 1000 = 0.8725 INR
+
+## SLO: 99% of /parse requests return HTTP 200 within 30 s, window = one standard load-test run
+- error budget = 1% x 602 requests = 6.0 requests
+- used: 0 failed requests = 0.0% of the budget
+bash scripts/task4.sh rollout
+horizontalpodautoscaler.autoscaling/parser patched
+05:52:06 update to v2
+deployment.apps/parser env updated
+Waiting for deployment "parser" rollout to finish: 1 out of 2 new replicas have been updated...
+Waiting for deployment "parser" rollout to finish: 1 out of 2 new replicas have been updated...
+Waiting for deployment "parser" rollout to finish: 1 out of 2 new replicas have been updated...
+Waiting for deployment "parser" rollout to finish: 1 old replicas are pending termination...
+Waiting for deployment "parser" rollout to finish: 1 old replicas are pending termination...
+Waiting for deployment "parser" rollout to finish: 1 old replicas are pending termination...
+deployment "parser" successfully rolled out
+HTTP/1.1 200 OK
+Content-Length: 67
+Content-Type: application/json
+Date: Sat, 07 Nov 2026 05:53:25 GMT
+Server: uvicorn
+X-Model-Version: v2
+X-Served-By: parser-54cf458cfd-ljldm
+
+{"intent":"datetime_query","date":null,"time":null,"place":"tokyo"}
+05:53:27 rollout undo
+Warning: resource deployments/parser was previously managed with 'kubectl apply'. Rolling back will not update the kubectl.kubernetes.io/last-applied-configuration annotation, which may cause unexpected behavior on future 'kubectl apply' operations. Consider using 'kubectl apply' with your previous configuration file instead.
+deployment.apps/parser rolled back
+Waiting for deployment spec update to be observed...
+Waiting for deployment "parser" rollout to finish: 0 out of 2 new replicas have been updated...
+Waiting for deployment "parser" rollout to finish: 1 out of 2 new replicas have been updated...
+Waiting for deployment "parser" rollout to finish: 1 out of 2 new replicas have been updated...
+Waiting for deployment "parser" rollout to finish: 1 out of 2 new replicas have been updated...
+Waiting for deployment "parser" rollout to finish: 1 old replicas are pending termination...
+Waiting for deployment "parser" rollout to finish: 1 old replicas are pending termination...
+Waiting for deployment "parser" rollout to finish: 1 old replicas are pending termination...
+deployment "parser" successfully rolled out
+HTTP/1.1 200 OK
+Content-Length: 67
+Content-Type: application/json
+Date: Sat, 07 Nov 2026 05:54:36 GMT
+Server: uvicorn
+X-Model-Version: v1
+X-Served-By: parser-67bb49c8d-fgl6r
+
+{"intent":"datetime_query","date":null,"time":null,"place":"tokyo"}
+horizontalpodautoscaler.autoscaling/parser patched
+## Load test (Locust, 4 users, 2 min)
+- requests 929, failures 1, error rate 0.11%
+- p50 latency 1400 ms, p95 latency 2900 ms
+- throughput 2.59 requests/s
+
+## Successful requests per replica (X-Served-By)
+- parser-67bb49c8d-8zv7j: 62 (6.7%)
+- parser-67bb49c8d-vchdm: 77 (8.3%)
+- parser-54cf458cfd-ljldm: 117 (12.6%)
+- parser-54cf458cfd-ktchb: 83 (8.9%)
+- parser-67bb49c8d-cqqwc: 307 (33.0%)
+- parser-67bb49c8d-fgl6r: 285 (30.6%)
+- per model version: {'v1': 731, 'v2': 200}
+
+## Cost per 1,000 requests (rate_card.json, INR)
+1. one replica per hour = 1.0 vCPU x 3.5 + 1.0 GiB x 0.45 = 3.9500 INR/h
+2. all running replicas = 2 x 3.9500 = 7.9000 INR/h
+3. requests served per hour = 2.5897 req/s x 3600 = 9323.0 req/h
+4. cost per 1,000 requests = 7.9000 / 9323.0 x 1000 = 0.8474 INR
+
+## SLO: 99% of /parse requests return HTTP 200 within 30 s, window = one standard load-test run
+- error budget = 1% x 929 requests = 9.3 requests
+- used: 1 failed requests = 10.8% of the budget
+bash scripts/task4.sh recovery
+horizontalpodautoscaler.autoscaling/parser patched
+05:58:18 deleting parser-67bb49c8d-cqqwc
+pod "parser-67bb49c8d-cqqwc" deleted from app namespace
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/parser   2/2     2            2           36m
+
+NAME                         READY   STATUS    RESTARTS   AGE
+pod/parser-67bb49c8d-fgl6r   1/1     Running   0          6m48s
+pod/parser-67bb49c8d-jhbzb   1/1     Running   0          2m21s
+horizontalpodautoscaler.autoscaling/parser patched
+## Load test (Locust, 4 users, 2 min)
+- requests 492, failures 0, error rate 0.00%
+- p50 latency 1400 ms, p95 latency 2300 ms
+- throughput 2.75 requests/s
+
+## Successful requests per replica (X-Served-By)
+- parser-67bb49c8d-fgl6r: 261 (52.8%)
+- parser-67bb49c8d-cqqwc: 60 (12.1%)
+- parser-67bb49c8d-jhbzb: 173 (35.0%)
+- per model version: {'v1': 494}
+
+## Cost per 1,000 requests (rate_card.json, INR)
+1. one replica per hour = 1.0 vCPU x 3.5 + 1.0 GiB x 0.45 = 3.9500 INR/h
+2. all running replicas = 2 x 3.9500 = 7.9000 INR/h
+3. requests served per hour = 2.7500 req/s x 3600 = 9899.8 req/h
+4. cost per 1,000 requests = 7.9000 / 9899.8 x 1000 = 0.7980 INR
+
+## SLO: 99% of /parse requests return HTTP 200 within 30 s, window = one standard load-test run
+- error budget = 1% x 492 requests = 4.9 requests
+- used: 0 failed requests = 0.0% of the budget
+bash scripts/task4.sh coldstart
+### run 1 06:00:39
+parser-67bb49c8d-4llgq  created 2026-11-07T06:00:41Z  ready 2026-11-07T06:00:58Z  cold start 17s
+parser-67bb49c8d-cgqgn  created 2026-11-07T06:00:41Z  ready 2026-11-07T06:01:01Z  cold start 20s
+RUN_MAX_SECONDS 20
+2026-11-07 06:00:43,770 INFO parser.storage downloading model from s3://models/v1/ (endpoint http://seaweedfs.data.svc.cluster.local:8333) to /tmp/model
+INFO:     10.42.0.1:42848 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 06:00:43,827 INFO parser.storage   downloaded s3://models/v1/config.json (0.0 MB)
+2026-11-07 06:00:43,835 INFO parser.storage   downloaded s3://models/v1/generation_config.json (0.0 MB)
+INFO:     10.42.0.1:47554 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 06:00:48,432 INFO parser.storage   downloaded s3://models/v1/model.safetensors (281.7 MB)
+2026-11-07 06:00:48,450 INFO parser.storage   downloaded s3://models/v1/model.sha256 (0.0 MB)
+2026-11-07 06:00:48,460 INFO parser.storage   downloaded s3://models/v1/special_tokens_map.json (0.0 MB)
+2026-11-07 06:00:48,505 INFO parser.storage   downloaded s3://models/v1/tokenizer.json (3.6 MB)
+2026-11-07 06:00:48,514 INFO parser.storage   downloaded s3://models/v1/tokenizer_config.json (0.0 MB)
+2026-11-07 06:00:48,523 INFO parser.storage   downloaded s3://models/v1/version.json (0.0 MB)
+2026-11-07 06:00:48,524 INFO parser.storage model download finished: 285.3 MB in 4.8s
+### run 2 06:01:02
+parser-67bb49c8d-9tgdb  created 2026-11-07T06:01:02Z  ready 2026-11-07T06:01:26Z  cold start 24s
+parser-67bb49c8d-zdb4f  created 2026-11-07T06:01:02Z  ready 2026-11-07T06:01:25Z  cold start 23s
+RUN_MAX_SECONDS 24
+INFO:     10.42.0.1:56402 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 06:01:05,401 INFO parser.storage downloading model from s3://models/v1/ (endpoint http://seaweedfs.data.svc.cluster.local:8333) to /tmp/model
+2026-11-07 06:01:05,571 INFO parser.storage   downloaded s3://models/v1/config.json (0.0 MB)
+2026-11-07 06:01:05,579 INFO parser.storage   downloaded s3://models/v1/generation_config.json (0.0 MB)
+INFO:     10.42.0.1:56406 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 06:01:10,079 INFO parser.storage   downloaded s3://models/v1/model.safetensors (281.7 MB)
+2026-11-07 06:01:10,137 INFO parser.storage   downloaded s3://models/v1/model.sha256 (0.0 MB)
+2026-11-07 06:01:10,147 INFO parser.storage   downloaded s3://models/v1/special_tokens_map.json (0.0 MB)
+2026-11-07 06:01:10,195 INFO parser.storage   downloaded s3://models/v1/tokenizer.json (3.6 MB)
+2026-11-07 06:01:10,206 INFO parser.storage   downloaded s3://models/v1/tokenizer_config.json (0.0 MB)
+2026-11-07 06:01:10,215 INFO parser.storage   downloaded s3://models/v1/version.json (0.0 MB)
+2026-11-07 06:01:10,215 INFO parser.storage model download finished: 285.3 MB in 4.8s
+### run 3 06:01:27
+parser-67bb49c8d-5fjs6  created 2026-11-07T06:01:28Z  ready 2026-11-07T06:01:58Z  cold start 30s
+parser-67bb49c8d-djx9w  created 2026-11-07T06:01:28Z  ready 2026-11-07T06:01:58Z  cold start 30s
+RUN_MAX_SECONDS 30
+INFO:     10.42.0.1:44020 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 06:01:31,898 INFO parser.storage downloading model from s3://models/v1/ (endpoint http://seaweedfs.data.svc.cluster.local:8333) to /tmp/model
+2026-11-07 06:01:32,104 INFO parser.storage   downloaded s3://models/v1/config.json (0.0 MB)
+2026-11-07 06:01:32,116 INFO parser.storage   downloaded s3://models/v1/generation_config.json (0.0 MB)
+INFO:     10.42.0.1:44026 - "GET /readyz HTTP/1.1" 503 Service Unavailable
+2026-11-07 06:01:37,437 INFO parser.storage   downloaded s3://models/v1/model.safetensors (281.7 MB)
+2026-11-07 06:01:37,471 INFO parser.storage   downloaded s3://models/v1/model.sha256 (0.0 MB)
+2026-11-07 06:01:37,491 INFO parser.storage   downloaded s3://models/v1/special_tokens_map.json (0.0 MB)
+2026-11-07 06:01:37,537 INFO parser.storage   downloaded s3://models/v1/tokenizer.json (3.6 MB)
+2026-11-07 06:01:37,548 INFO parser.storage   downloaded s3://models/v1/tokenizer_config.json (0.0 MB)
+2026-11-07 06:01:37,562 INFO parser.storage   downloaded s3://models/v1/version.json (0.0 MB)
+2026-11-07 06:01:37,562 INFO parser.storage model download finished: 285.3 MB in 5.7s
+cold-start times (s): [20, 24, 30]; median 24s
+bash scripts/task4.sh lb
+horizontalpodautoscaler.autoscaling/parser patched
+NAME                     READY   STATUS    RESTARTS   AGE   IP           NODE              NOMINATED NODE   READINESS GATES
+parser-67bb49c8d-5fjs6   1/1     Running   0          32s   10.42.0.29   k3d-kd-server-0   <none>           <none>
+parser-67bb49c8d-djx9w   1/1     Running   0          32s   10.42.0.28   k3d-kd-server-0   <none>           <none>
+[2026-11-07 06:02:01,267] ManasSingh/INFO/locust.main: Starting Locust 2.32.4
+[2026-11-07 06:02:01,272] ManasSingh/INFO/locust.main: Run time limit set to 120 seconds
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                         0     0(0.00%) |      0       0       0      0 |    0.00        0.00
+
+[2026-11-07 06:02:01,279] ManasSingh/INFO/locust.runners: Ramping to 4 users at a rate of 4.00 per second
+[2026-11-07 06:02:01,284] ManasSingh/INFO/locust.runners: All users spawned: {"ParserUser": 4} (4 total users)
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                             4     0(0.00%) |   1485    1117    1870   1117 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                         4     0(0.00%) |   1485    1117    1870   1117 |    0.00        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                             8     0(0.00%) |   1480    1117    1870   1400 |    0.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                         8     0(0.00%) |   1480    1117    1870   1400 |    0.00        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                            14     0(0.00%) |   1494    1117    1870   1500 |    2.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                        14     0(0.00%) |   1494    1117    1870   1500 |    2.00        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                            18     0(0.00%) |   1505    1117    1901   1500 |    2.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                        18     0(0.00%) |   1505    1117    1901   1500 |    2.00        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                            24     0(0.00%) |   1557    1117    1948   1600 |    2.25        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                        24     0(0.00%) |   1557    1117    1948   1600 |    2.25        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                            28     0(0.00%) |   1623    1117    2204   1600 |    2.20        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                        28     0(0.00%) |   1623    1117    2204   1600 |    2.20        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                            32     0(0.00%) |   1672    1117    2204   1700 |    2.40        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                        32     0(0.00%) |   1672    1117    2204   1700 |    2.40        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                            36     0(0.00%) |   1683    1117    2204   1700 |    2.20        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                        36     0(0.00%) |   1683    1117    2204   1700 |    2.20        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                            40     0(0.00%) |   1702    1117    2204   1700 |    2.30        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                        40     0(0.00%) |   1702    1117    2204   1700 |    2.30        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                            44     0(0.00%) |   1700    1117    2204   1700 |    2.20        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                        44     0(0.00%) |   1700    1117    2204   1700 |    2.20        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                            48     0(0.00%) |   1724    1117    2204   1800 |    2.20        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                        48     0(0.00%) |   1724    1117    2204   1800 |    2.20        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                            52     0(0.00%) |   1761    1117    2537   1800 |    2.20        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                        52     0(0.00%) |   1761    1117    2537   1800 |    2.20        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                            56     0(0.00%) |   1778    1117    2537   1800 |    2.20        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                        56     0(0.00%) |   1778    1117    2537   1800 |    2.20        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                            60     0(0.00%) |   1779    1117    2537   1800 |    2.10        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                        60     0(0.00%) |   1779    1117    2537   1800 |    2.10        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                            65     0(0.00%) |   1782    1117    2537   1800 |    2.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                        65     0(0.00%) |   1782    1117    2537   1800 |    2.00        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                            71     0(0.00%) |   1779    1117    2537   1800 |    2.10        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                        71     0(0.00%) |   1779    1117    2537   1800 |    2.10        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                            75     0(0.00%) |   1756    1117    2537   1800 |    2.10        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                        75     0(0.00%) |   1756    1117    2537   1800 |    2.10        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                            81     0(0.00%) |   1733    1117    2537   1700 |    2.30        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                        81     0(0.00%) |   1733    1117    2537   1700 |    2.30        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                            87     0(0.00%) |   1708    1117    2537   1700 |    2.30        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                        87     0(0.00%) |   1708    1117    2537   1700 |    2.30        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                            93     0(0.00%) |   1695    1117    2537   1700 |    2.70        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                        93     0(0.00%) |   1695    1117    2537   1700 |    2.70        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                            99     0(0.00%) |   1677    1117    2537   1700 |    2.60        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                        99     0(0.00%) |   1677    1117    2537   1700 |    2.60        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           103     0(0.00%) |   1669    1117    2537   1700 |    2.80        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       103     0(0.00%) |   1669    1117    2537   1700 |    2.80        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           109     0(0.00%) |   1665    1117    2537   1600 |    2.80        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       109     0(0.00%) |   1665    1117    2537   1600 |    2.80        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           115     0(0.00%) |   1655    1117    2537   1600 |    2.60        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       115     0(0.00%) |   1655    1117    2537   1600 |    2.60        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           119     0(0.00%) |   1646    1117    2537   1600 |    2.80        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       119     0(0.00%) |   1646    1117    2537   1600 |    2.80        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           125     0(0.00%) |   1634    1117    2537   1600 |    2.80        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       125     0(0.00%) |   1634    1117    2537   1600 |    2.80        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           131     0(0.00%) |   1622    1117    2537   1600 |    2.60        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       131     0(0.00%) |   1622    1117    2537   1600 |    2.60        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           137     0(0.00%) |   1610    1117    2537   1500 |    2.60        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       137     0(0.00%) |   1610    1117    2537   1500 |    2.60        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           143     0(0.00%) |   1600    1117    2537   1500 |    2.80        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       143     0(0.00%) |   1600    1117    2537   1500 |    2.80        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           149     0(0.00%) |   1590    1117    2537   1500 |    2.80        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       149     0(0.00%) |   1590    1117    2537   1500 |    2.80        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           155     0(0.00%) |   1583    1057    2537   1500 |    3.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       155     0(0.00%) |   1583    1057    2537   1500 |    3.00        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           161     0(0.00%) |   1575     966    2537   1500 |    2.90        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       161     0(0.00%) |   1575     966    2537   1500 |    2.90        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           166     0(0.00%) |   1567     966    2537   1500 |    3.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       166     0(0.00%) |   1567     966    2537   1500 |    3.00        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           172     0(0.00%) |   1566     966    2537   1500 |    2.90        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       172     0(0.00%) |   1566     966    2537   1500 |    2.90        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           177     0(0.00%) |   1566     817    2537   1500 |    2.70        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       177     0(0.00%) |   1566     817    2537   1500 |    2.70        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           183     0(0.00%) |   1560     817    2537   1500 |    2.70        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       183     0(0.00%) |   1560     817    2537   1500 |    2.70        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           189     0(0.00%) |   1554     817    2537   1500 |    2.80        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       189     0(0.00%) |   1554     817    2537   1500 |    2.80        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           194     0(0.00%) |   1549     817    2537   1500 |    2.80        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       194     0(0.00%) |   1549     817    2537   1500 |    2.80        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           200     0(0.00%) |   1543     780    2537   1500 |    2.70        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       200     0(0.00%) |   1543     780    2537   1500 |    2.70        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           206     0(0.00%) |   1539     780    2537   1500 |    2.90        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       206     0(0.00%) |   1539     780    2537   1500 |    2.90        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           212     0(0.00%) |   1534     780    2537   1500 |    2.90        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       212     0(0.00%) |   1534     780    2537   1500 |    2.90        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           218     0(0.00%) |   1528     780    2537   1500 |    2.90        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       218     0(0.00%) |   1528     780    2537   1500 |    2.90        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           224     0(0.00%) |   1522     780    2537   1500 |    2.90        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       224     0(0.00%) |   1522     780    2537   1500 |    2.90        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           229     0(0.00%) |   1515     681    2537   1500 |    3.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       229     0(0.00%) |   1515     681    2537   1500 |    3.00        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           233     0(0.00%) |   1521     551    3099   1500 |    3.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       233     0(0.00%) |   1521     551    3099   1500 |    3.00        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           239     0(0.00%) |   1525     551    3115   1500 |    2.80        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       239     0(0.00%) |   1525     551    3115   1500 |    2.80        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           245     0(0.00%) |   1522     551    3115   1500 |    2.80        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       245     0(0.00%) |   1522     551    3115   1500 |    2.80        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           250     0(0.00%) |   1520     551    3115   1500 |    2.70        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       250     0(0.00%) |   1520     551    3115   1500 |    2.70        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           254     0(0.00%) |   1528     551    3115   1500 |    2.70        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       254     0(0.00%) |   1528     551    3115   1500 |    2.70        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           260     0(0.00%) |   1527     551    3115   1500 |    2.40        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       260     0(0.00%) |   1527     551    3115   1500 |    2.40        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           266     0(0.00%) |   1524     551    3115   1500 |    2.60        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       266     0(0.00%) |   1524     551    3115   1500 |    2.60        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           273     0(0.00%) |   1518     551    3115   1500 |    2.60        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       273     0(0.00%) |   1518     551    3115   1500 |    2.60        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           277     0(0.00%) |   1517     551    3115   1500 |    2.70        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       277     0(0.00%) |   1517     551    3115   1500 |    2.70        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           283     0(0.00%) |   1514     551    3115   1500 |    2.70        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       283     0(0.00%) |   1514     551    3115   1500 |    2.70        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           289     0(0.00%) |   1511     551    3115   1500 |    2.80        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       289     0(0.00%) |   1511     551    3115   1500 |    2.80        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           295     0(0.00%) |   1508     551    3115   1500 |    2.90        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       295     0(0.00%) |   1508     551    3115   1500 |    2.90        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           301     0(0.00%) |   1504     551    3115   1500 |    2.90        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       301     0(0.00%) |   1504     551    3115   1500 |    2.90        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           307     0(0.00%) |   1502     551    3115   1500 |    3.00        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       307     0(0.00%) |   1502     551    3115   1500 |    3.00        0.00
+
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           313     0(0.00%) |   1501     551    3115   1500 |    2.90        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       313     0(0.00%) |   1501     551    3115   1500 |    2.90        0.00
+
+[2026-11-07 06:04:00,648] ManasSingh/INFO/locust.main: --run-time limit reached, shutting down
+[2026-11-07 06:04:00,735] ManasSingh/INFO/locust.main: Shutting down (exit code 0)
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     /parse                                                                           317     0(0.00%) |   1499     551    3115   1500 |    2.66        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       317     0(0.00%) |   1499     551    3115   1500 |    2.66        0.00
+
+Response time percentiles (approximated)
+Type     Name                                                                                  50%    66%    75%    80%    90%    95%    98%    99%  99.9% 99.99%   100% # reqs
+--------|--------------------------------------------------------------------------------|--------|------|------|------|------|------|------|------|------|------|------|------
+POST     /parse                                                                               1500   1600   1800   1800   2000   2100   2300   2700   3100   3100   3100    317
+--------|--------------------------------------------------------------------------------|--------|------|------|------|------|------|------|------|------|------|------|------
+         Aggregated                                                                           1500   1600   1800   1800   2000   2100   2300   2700   3100   3100   3100    317
+
+
+Successful requests by header:
+{
+  "per_replica": {
+    "parser-67bb49c8d-djx9w": 158,
+    "parser-67bb49c8d-5fjs6": 159
+  },
+  "per_model_version": {
+    "v1": 317
+  }
+}
+horizontalpodautoscaler.autoscaling/parser patched
+## Load test (Locust, 4 users, 2 min)
+- requests 316, failures 0, error rate 0.00%
+- p50 latency 1500 ms, p95 latency 2100 ms
+- throughput 2.65 requests/s
+
+## Successful requests per replica (X-Served-By)
+- parser-67bb49c8d-djx9w: 158 (49.8%)
+- parser-67bb49c8d-5fjs6: 159 (50.2%)
+- per model version: {'v1': 317}
+
+## Pod resources during the test (kubectl top pods, every 5 s)
+- parser-67bb49c8d-5fjs6: CPU avg 955m / max 999m; memory avg 556Mi / max 611Mi
+- parser-67bb49c8d-djx9w: CPU avg 965m / max 1001m; memory avg 547Mi / max 611Mi
+
+## Cold start
+- cold-start times (s): [20, 24, 30]; median 24s
+
+## Cost per 1,000 requests (rate_card.json, INR)
+1. one replica per hour = 1.0 vCPU x 3.5 + 1.0 GiB x 0.45 = 3.9500 INR/h
+2. all running replicas = 2 x 3.9500 = 7.9000 INR/h
+3. requests served per hour = 2.6536 req/s x 3600 = 9552.9 req/h
+4. cost per 1,000 requests = 7.9000 / 9552.9 x 1000 = 0.8270 INR
+
+## SLO: 99% of /parse requests return HTTP 200 within 30 s, window = one standard load-test run
+- error budget = 1% x 316 requests = 3.2 requests
+- used: 0 failed requests = 0.0% of the budget
