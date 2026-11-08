@@ -1,0 +1,5 @@
+      197541  2026-11-06 06:32:42  s3://datasets/commands_pool.jsonl
+      262704  2026-11-06 08:47:03  s3://datasets/teacher/shard-0.jsonl
+      262679  2026-11-06 08:47:01  s3://datasets/teacher/shard-1.jsonl
+      787446  2026-11-06 08:55:42  s3://datasets/v1/train.jsonl
+          78  2026-11-06 08:55:42  s3://datasets/v1/train.sha256

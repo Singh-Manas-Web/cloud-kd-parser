@@ -1,0 +1,12 @@
+NAMESPACE     NAME                                      READY   STATUS      RESTARTS   AGE
+app           parser-67bb49c8d-5fjs6                    1/1     Running     0          34h
+data          seaweedfs-8cc667b94-brb7w                 1/1     Running     0          2d10h
+kube-system   coredns-8db54c48d-2s74d                   1/1     Running     0          2d10h
+kube-system   helm-install-traefik-crd-x2zr9            0/1     Completed   0          2d10h
+kube-system   helm-install-traefik-fwcdk                0/1     Completed   2          2d10h
+kube-system   local-path-provisioner-5d9d9885bc-phc7l   1/1     Running     0          2d10h
+kube-system   metrics-server-786d997795-lx6xk           1/1     Running     0          2d10h
+kube-system   svclb-traefik-d91e636e-gqmjv              2/2     Running     0          2d10h
+kube-system   traefik-9bcdbbd9-c8hwp                    1/1     Running     0          2d10h
+pipeline      teacher-worker-0-l5r8h                    0/1     Completed   0          2d9h
+pipeline      teacher-worker-1-rgb59                    0/1     Completed   0          2d9h
