@@ -15,6 +15,28 @@ train.py (CPU) ─► models/v1, models/v2 ─► SeaweedFS (models) + GitHub Re
 Ingress (Traefik, :8080) ─► Service ─► Deployment "parser" (namespace app, HPA 1–2) ─► downloads model at start-up
 ```
 
+## Links
+
+| What | Link |
+|---|---|
+| **GitHub repository** | https://github.com/Singh-Manas-Web/cloud-kd-parser |
+| Final assessed commit | tag [`final`](https://github.com/Singh-Manas-Web/cloud-kd-parser/tree/final) |
+| Model v1 (Release assets: model, tokenizer, version.json, model.sha256) | https://github.com/Singh-Manas-Web/cloud-kd-parser/releases/tag/model-v1 |
+| Model v2 | https://github.com/Singh-Manas-Web/cloud-kd-parser/releases/tag/model-v2 |
+| Untrained Pythia-70M (bad model for the CI gate test) | https://github.com/Singh-Manas-Web/cloud-kd-parser/releases/tag/model-bad |
+| CI run passing all four stages (model-v1) | https://github.com/Singh-Manas-Web/cloud-kd-parser/actions/runs/42341969740 |
+| CI run failing at the quality gate (untrained model) | https://github.com/Singh-Manas-Web/cloud-kd-parser/actions/runs/42341958991 |
+
+## Submission contents
+
+| Item | Location |
+|---|---|
+| Report (one section per task, at most 8 pages) | `report/report.pdf` |
+| Handwritten reflection (3 pages) | `230103017.pdf` |
+| Evidence: logs, score.py outputs, Locust results, command outputs | `results/` |
+| Use of AI tools | `AI_USE.md` |
+| Model files | GitHub Releases only (never committed to Git) |
+
 ## Requirements
 
 Docker, k3d ≥ 5.6, kubectl, Python 3.11 or 3.12 with `venv`, make, curl. For Task 1 only: Ollama with
@@ -29,7 +51,9 @@ make up        # cluster, SeaweedFS, buckets, models from the GitHub Release, im
 ```
 Test it: `curl -s -i -X POST http://localhost:8080/parse -H 'Content-Type: application/json' -d '{"text":"set an alarm for seven am tomorrow"}'`
 
-Tear down: `make down`. Run `make help` to list every target.
+Or run `make smoke` (one request through the Ingress). Unit tests and lint: `.venv/bin/pip install -r tests/requirements.txt && make test lint`.
+
+Tear down: `make down` (deletes the cluster). Run `make help` to list every target.
 
 ## Pipeline commands
 
